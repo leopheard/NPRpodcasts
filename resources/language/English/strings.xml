@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <strings>
   <!-- Plugin name -->
-  <string id="30001">test</string>
-  <string id="30002">test</string>
-  <string id="30003">test</string>
-  <string id="30004">test</string>
-  <string id="30005">test</string>
-  <string id="30006">test</string>
-  <string id="30007">test</string>
+  <string id="30001">Wait Wait Don't Tell Me</string>
+  <string id="30002">How I Built This With Guy Riaz</string>
+  <string id="30003">Hidden Brain</string>
+  <string id="30004">Planet Money</string>
+  <string id="30005">How To Pay For College</string>
+  <string id="30006">White Lies</string>
+  <string id="30007">Rough Translation</string>
 </strings>

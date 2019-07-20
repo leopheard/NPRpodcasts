@@ -1,4 +1,3 @@
-
 from xbmcswift2 import Plugin, xbmcgui
 from resources.lib import mainaddon
 
@@ -73,10 +72,10 @@ def main_menu():
     main menu 
     """
     items = [
-        {
-            'label': plugin.get_string(30105),#MUSIC
-            'path': plugin.url_for('all_music'),
-            'thumbnail': "https://media.npr.org/assets/img/2019/05/23/screen-shot-2019-05-23-at-8.46.21-am_sq-7dcea391e7a87ca3569fe3d2047dda0144e5d86f-s400-c85.png"},
+#        {
+#            'label': plugin.get_string(30105),#MUSIC
+#            'path': plugin.url_for('all_music'),
+#            'thumbnail': "https://media.npr.org/assets/img/2019/05/23/screen-shot-2019-05-23-at-8.46.21-am_sq-7dcea391e7a87ca3569fe3d2047dda0144e5d86f-s400-c85.png"},
         {
             'label': plugin.get_string(30001),#WAIT
             'path': plugin.url_for('all_episodes1'),
