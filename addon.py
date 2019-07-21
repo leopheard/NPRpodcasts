@@ -25,7 +25,7 @@ URL-ONPOINT = "https://www.npr.org/rss/podcast.php?id=510053" #OnpointWBUR #3001
 URL-INDICATOR = "https://www.npr.org/rss/podcast.php?id=510325" #indictatorplanetmoney #30015
 URL-FRESH = "https://www.npr.org/rss/podcast.php?id=381444908" #freshair #30016
 URL-UP = "https://www.npr.org/rss/podcast.php?id=510318" #upfirst #30017
-URL-1A = "https://www.npr.org/rss/podcast.php?id=510316" #1A #30018
+URL-ONEA = "https://www.npr.org/rss/podcast.php?id=510316" #ONEA #30018
 
 #NewsConversations
 URL-NOW = "https://www.npr.org/rss/podcast.php?id=500005" #NPRNewsNow #30019
@@ -34,7 +34,7 @@ URL-ONPOINT = "https://www.npr.org/rss/podcast.php?id=510053" #OnpointWBUR #3001
 URL-INDICATOR = "https://www.npr.org/rss/podcast.php?id=510325" #indictatorplanetmoney #30015
 URL-FRESH = "https://www.npr.org/rss/podcast.php?id=381444908" #freshair #30016
 URL-UP = "https://www.npr.org/rss/podcast.php?id=510318" #upfirst #30017
-URL-1A = "https://www.npr.org/rss/podcast.php?id=510316" #1A #30018
+URL-ONEA = "https://www.npr.org/rss/podcast.php?id=510316" #ONEA #30018
 URL-BELIEVED = "https://www.npr.org/rss/podcast.php?id=510326" #Believed #30020
 URL-CODE = "https://www.npr.org/rss/podcast.php?id=510312" #Codesw #30021
 URL-EMBEDDED = "https://www.npr.org/rss/podcast.php?id=510311" #Embedded #30022
@@ -145,7 +145,7 @@ def main_menu():
             'path': plugin.url_for('all_episodes17'),
             'thumbnail': ""},
         {
-            'label': plugin.get_string(30018),#1A
+            'label': plugin.get_string(30018),#ONE
             'path': plugin.url_for('all_episodes18'),
             'thumbnail': ""},
         {
@@ -232,235 +232,111 @@ def main_menu():
             'label': plugin.get_string(30039),#LIVEINCONCERTALLSONGSCONS
             'path': plugin.url_for('all_episodes39'),
             'thumbnail': ""},
-        {
-            'label': plugin.get_string(300),#
-            'path': plugin.url_for('all_episodes'),
-            'thumbnail': ""},
-        {
-            'label': plugin.get_string(300),#
-            'path': plugin.url_for('all_episodes'),
-            'thumbnail': ""},
-        {
-            'label': plugin.get_string(300),#
-            'path': plugin.url_for('all_episodes'),
-            'thumbnail': ""},
-        {
-            'label': plugin.get_string(300),#
-            'path': plugin.url_for('all_episodes'),
-            'thumbnail': ""},
-        {
-            'label': plugin.get_string(300),#
-            'path': plugin.url_for('all_episodes'),
-            'thumbnail': ""},
-        {
-            'label': plugin.get_string(300),#
-            'path': plugin.url_for('all_episodes'),
-            'thumbnail': ""},
-        {
-            'label': plugin.get_string(300),#
-            'path': plugin.url_for('all_episodes'),
-            'thumbnail': ""},
-        {
-            'label': plugin.get_string(300),#
-            'path': plugin.url_for('all_episodes'),
-            'thumbnail': ""},
-
-
     ]
 
     return items
 
 
-@plugin.route('/all_music/')
-def all_music():
-    items = [
-        {
-            'label': plugin.get_string(30001),#WAIT
-            'path': plugin.url_for('all_episodes1'),
-            'thumbnail': ""},
-    ]
+#@plugin.route('/all_music/')
+#def all_music():
+#    items = [
+#        {
+#            'label': plugin.get_string(30001),#WAIT
+#            'path': plugin.url_for('all_episodes1'),
+#            'thumbnail': ""},
+#    ]
 
 @plugin.route('/all_episodes1/')
 def all_episodes1():
     soup1 = mainaddon.get_soup1(URL-WAIT)
-    
     playable_podcast1 = mainaddon.get_playable_podcast1(soup1)
-    
     items = mainaddon.compile_playable_podcast1(playable_podcast1)
-
     return items
-
-
 @plugin.route('/all_episodes2/')
 def all_episodes2():
     soup2 = mainaddon.get_soup(URL2)
     playable_podcast2 = mainaddon.get_playable_podcast1(soup2)
     items = mainaddon.compile_playable_podcast2(playable_podcast2)
     return items
-
 @plugin.route('/all_episodes3/')
 def all_episodes3():
     soup3 = mainaddon.get_soup3(URL3)
     playable_podcast3 = mainaddon.get_playable_podcast1(soup3)
     items = mainaddon.compile_playable_podcast1(playable_podcast3)
     return items
-
 @plugin.route('/all_episodes1/')
 def all_episodes1():
-    """
-    contains playable podcasts listed as just-in
-    """
     soup = mainaddon.get_soup(URL1)
-    
     playable_podcast1 = mainaddon.get_playable_podcast1(soup)
-    
     items = mainaddon.compile_playable_podcast1(playable_podcast1)
-
+    return items
+@plugin.route('/all_episodes1/')
+def all_episodes1():
+    soup = mainaddon.get_soup(URL1)   
+    playable_podcast1 = mainaddon.get_playable_podcast1(soup)
+    items = mainaddon.compile_playable_podcast1(playable_podcast1)
+    return items
+@plugin.route('/all_episodes1/')
+def all_episodes1():
+    soup = mainaddon.get_soup(URL1)
+    playable_podcast1 = mainaddon.get_playable_podcast1(soup)
+    items = mainaddon.compile_playable_podcast1(playable_podcast1)
+    return items
+@plugin.route('/all_episodes1/')
+def all_episodes1():
+    soup = mainaddon.get_soup(URL1)
+    playable_podcast1 = mainaddon.get_playable_podcast1(soup)
+    items = mainaddon.compile_playable_podcast1(playable_podcast1)
+    return items
+@plugin.route('/all_episodes1/')
+def all_episodes1():
+    soup = mainaddon.get_soup(URL1)
+    playable_podcast1 = mainaddon.get_playable_podcast1(soup) 
+    items = mainaddon.compile_playable_podcast1(playable_podcast1)
+    return items
+@plugin.route('/all_episodes1/')
+def all_episodes1():
+    soup = mainaddon.get_soup(URL1)
+    playable_podcast1 = mainaddon.get_playable_podcast1(soup)
+    items = mainaddon.compile_playable_podcast1(playable_podcast1)
+    return items
+@plugin.route('/all_episodes1/')
+def all_episodes1():
+    soup = mainaddon.get_soup(URL1)
+    playable_podcast1 = mainaddon.get_playable_podcast1(soup)
+    items = mainaddon.compile_playable_podcast1(playable_podcast1)
+    return items
+@plugin.route('/all_episodes1/')
+def all_episodes1():
+    soup = mainaddon.get_soup(URL1)
+    playable_podcast1 = mainaddon.get_playable_podcast1(soup)
+    items = mainaddon.compile_playable_podcast1(playable_podcast1)
     return items
 
 @plugin.route('/all_episodes1/')
 def all_episodes1():
-    """
-    contains playable podcasts listed as just-in
-    """
     soup = mainaddon.get_soup(URL1)
-    
     playable_podcast1 = mainaddon.get_playable_podcast1(soup)
-    
     items = mainaddon.compile_playable_podcast1(playable_podcast1)
-
     return items
-
 @plugin.route('/all_episodes1/')
 def all_episodes1():
-    """
-    contains playable podcasts listed as just-in
-    """
-    soup = mainaddon.get_soup(URL1)
-    
+    soup = mainaddon.get_soup(URL1) 
     playable_podcast1 = mainaddon.get_playable_podcast1(soup)
-    
     items = mainaddon.compile_playable_podcast1(playable_podcast1)
-
     return items
-
 @plugin.route('/all_episodes1/')
 def all_episodes1():
-    """
-    contains playable podcasts listed as just-in
-    """
     soup = mainaddon.get_soup(URL1)
-    
     playable_podcast1 = mainaddon.get_playable_podcast1(soup)
-    
     items = mainaddon.compile_playable_podcast1(playable_podcast1)
-
     return items
-
 @plugin.route('/all_episodes1/')
 def all_episodes1():
-    """
-    contains playable podcasts listed as just-in
-    """
     soup = mainaddon.get_soup(URL1)
-    
     playable_podcast1 = mainaddon.get_playable_podcast1(soup)
-    
     items = mainaddon.compile_playable_podcast1(playable_podcast1)
-
     return items
-
-@plugin.route('/all_episodes1/')
-def all_episodes1():
-    """
-    contains playable podcasts listed as just-in
-    """
-    soup = mainaddon.get_soup(URL1)
-    
-    playable_podcast1 = mainaddon.get_playable_podcast1(soup)
-    
-    items = mainaddon.compile_playable_podcast1(playable_podcast1)
-
-    return items
-
-@plugin.route('/all_episodes1/')
-def all_episodes1():
-    """
-    contains playable podcasts listed as just-in
-    """
-    soup = mainaddon.get_soup(URL1)
-    
-    playable_podcast1 = mainaddon.get_playable_podcast1(soup)
-    
-    items = mainaddon.compile_playable_podcast1(playable_podcast1)
-
-    return items
-
-@plugin.route('/all_episodes1/')
-def all_episodes1():
-    """
-    contains playable podcasts listed as just-in
-    """
-    soup = mainaddon.get_soup(URL1)
-    
-    playable_podcast1 = mainaddon.get_playable_podcast1(soup)
-    
-    items = mainaddon.compile_playable_podcast1(playable_podcast1)
-
-    return items
-
-@plugin.route('/all_episodes1/')
-def all_episodes1():
-    """
-    contains playable podcasts listed as just-in
-    """
-    soup = mainaddon.get_soup(URL1)
-    
-    playable_podcast1 = mainaddon.get_playable_podcast1(soup)
-    
-    items = mainaddon.compile_playable_podcast1(playable_podcast1)
-
-    return items
-
-@plugin.route('/all_episodes1/')
-def all_episodes1():
-    """
-    contains playable podcasts listed as just-in
-    """
-    soup = mainaddon.get_soup(URL1)
-    
-    playable_podcast1 = mainaddon.get_playable_podcast1(soup)
-    
-    items = mainaddon.compile_playable_podcast1(playable_podcast1)
-
-    return items
-
-@plugin.route('/all_episodes1/')
-def all_episodes1():
-    """
-    contains playable podcasts listed as just-in
-    """
-    soup = mainaddon.get_soup(URL1)
-    
-    playable_podcast1 = mainaddon.get_playable_podcast1(soup)
-    
-    items = mainaddon.compile_playable_podcast1(playable_podcast1)
-
-    return items
-
-@plugin.route('/all_episodes1/')
-def all_episodes1():
-    """
-    contains playable podcasts listed as just-in
-    """
-    soup = mainaddon.get_soup(URL1)
-    
-    playable_podcast1 = mainaddon.get_playable_podcast1(soup)
-    
-    items = mainaddon.compile_playable_podcast1(playable_podcast1)
-
-    return items
-
 @plugin.route('/ all_episodes15/')
 def  all_episodes15():
     soup15 = mainaddon.get_soup15(URL15)
