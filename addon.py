@@ -16,54 +16,54 @@ URLASK = "https://www.npr.org/rss/podcast.php?id=510299" #Askmeanother #30008
 #Daily
 #ALT-URL-THINGS = "https://rss-npr-podcasts.herokuapp.com/rss/all-things-considered"
 #ALT-URL-MORNING = "https://rss-npr-podcasts.herokuapp.com/rss/morning-edition"
-URL-WEEKENDSAT = "https://rss-npr-podcasts.herokuapp.com/rss/weekend-edition-saturday"#WeekendSat #30011
+URLWEEKENDSAT = "https://rss-npr-podcasts.herokuapp.com/rss/weekend-edition-saturday"#WeekendSat #30011
 URL-WEEKENDSUN = "https://rss-npr-podcasts.herokuapp.com/rss/weekend-edition-sunday"#WeekendSun #30012
-URL-MORNING = "http://npr.pyther.net/podcast/morning-edition"#Morning Edition #30009
-URL-THINGS = "http://npr.pyther.net/podcast/all-things-considered"#AllThingsConsidered #30010
-URL-HERE = "https://www.npr.org/rss/podcast.php?id=510051" #HereNow #30013
-URL-ONPOINT = "https://www.npr.org/rss/podcast.php?id=510053" #OnpointWBUR #30014
-URL-INDICATOR = "https://www.npr.org/rss/podcast.php?id=510325" #indictatorplanetmoney #30015
-URL-FRESH = "https://www.npr.org/rss/podcast.php?id=381444908" #freshair #30016
-URL-UP = "https://www.npr.org/rss/podcast.php?id=510318" #upfirst #30017
-URL-ONEA = "https://www.npr.org/rss/podcast.php?id=510316" #ONEA #30018
+URLMORNING = "http://npr.pyther.net/podcast/morning-edition"#Morning Edition #30009
+URLTHINGS = "http://npr.pyther.net/podcast/all-things-considered"#AllThingsConsidered #30010
+URLHERE = "https://www.npr.org/rss/podcast.php?id=510051" #HereNow #30013
+URLONPOINT = "https://www.npr.org/rss/podcast.php?id=510053" #OnpointWBUR #30014
+URLINDICATOR = "https://www.npr.org/rss/podcast.php?id=510325" #indictatorplanetmoney #30015
+URLFRESH = "https://www.npr.org/rss/podcast.php?id=381444908" #freshair #30016
+URLUP = "https://www.npr.org/rss/podcast.php?id=510318" #upfirst #30017
+URLONEA = "https://www.npr.org/rss/podcast.php?id=510316" #ONEA #30018
 
 #NewsConversations
-URL-NOW = "https://www.npr.org/rss/podcast.php?id=500005" #NPRNewsNow #30019
-URL-HERE = "https://www.npr.org/rss/podcast.php?id=510051" #HereNow #30013
-URL-ONPOINT = "https://www.npr.org/rss/podcast.php?id=510053" #OnpointWBUR #30014
-URL-INDICATOR = "https://www.npr.org/rss/podcast.php?id=510325" #indictatorplanetmoney #30015
-URL-FRESH = "https://www.npr.org/rss/podcast.php?id=381444908" #freshair #30016
-URL-UP = "https://www.npr.org/rss/podcast.php?id=510318" #upfirst #30017
-URL-ONEA = "https://www.npr.org/rss/podcast.php?id=510316" #ONEA #30018
-URL-BELIEVED = "https://www.npr.org/rss/podcast.php?id=510326" #Believed #30020
-URL-CODE = "https://www.npr.org/rss/podcast.php?id=510312" #Codesw #30021
-URL-EMBEDDED = "https://www.npr.org/rss/podcast.php?id=510311" #Embedded #30022
-URL-ITBEEN = "https://www.npr.org/rss/podcast.php?id=510317" #Itbeenaminute #30023
-URL-LATINO = "https://www.npr.org/rss/podcast.php?id=510016" #latinoUSA #30024
-URL-POLITICS = "https://www.npr.org/rss/podcast.php?id=510310" #NPRpolitics #30025
-URL-THROUGH = "https://www.npr.org/rss/podcast.php?id=510333" #thoughline #30026
-URL-WHATS = "https://www.npr.org/rss/podcast.php?id=510323" #whatsgoodwith #30027
-URL-YR = "https://www.npr.org/rss/podcast.php?id=4692815" #YRmedia #30028
+URLNOW = "https://www.npr.org/rss/podcast.php?id=500005" #NPRNewsNow #30019
+URLHERE = "https://www.npr.org/rss/podcast.php?id=510051" #HereNow #30013
+URLONPOINT = "https://www.npr.org/rss/podcast.php?id=510053" #OnpointWBUR #30014
+URLINDICATOR = "https://www.npr.org/rss/podcast.php?id=510325" #indictatorplanetmoney #30015
+URLFRESH = "https://www.npr.org/rss/podcast.php?id=381444908" #freshair #30016
+URLUP = "https://www.npr.org/rss/podcast.php?id=510318" #upfirst #30017
+URLONEA = "https://www.npr.org/rss/podcast.php?id=510316" #ONEA #30018
+URLBELIEVED = "https://www.npr.org/rss/podcast.php?id=510326" #Believed #30020
+URLCODE = "https://www.npr.org/rss/podcast.php?id=510312" #Codesw #30021
+URLEMBEDDED = "https://www.npr.org/rss/podcast.php?id=510311" #Embedded #30022
+URLITBEEN = "https://www.npr.org/rss/podcast.php?id=510317" #Itbeenaminute #30023
+URLLATINO = "https://www.npr.org/rss/podcast.php?id=510016" #latinoUSA #30024
+URLPOLITICS = "https://www.npr.org/rss/podcast.php?id=510310" #NPRpolitics #30025
+URLTHROUGH = "https://www.npr.org/rss/podcast.php?id=510333" #thoughline #30026
+URLWHATS = "https://www.npr.org/rss/podcast.php?id=510323" #whatsgoodwith #30027
+URLYR = "https://www.npr.org/rss/podcast.php?id=4692815" #YRmedia #30028
 
 #StorytellingHumor
-URL-ASK = "https://www.npr.org/rss/podcast.php?id=510299" #Askmeanother #30008
-URL-CAR = "https://www.npr.org/rss/podcast.php?id=510208" #bestofcartalk #30029
-URL-BULLSEYE = "https://www.npr.org/rss/podcast.php?id=510309" #bullseye #30030
-URL-HIDDEN = "https://www.npr.org/rss/podcast.php?id=510308" #hiddenbrain #30003
-URL-BUILT = "https://www.npr.org/rss/podcast.php?id=510313" #HowIbuilt #30002
-URL-INVISIBILIA = "https://www.npr.org/templates/rss/podcast.php?id=510307" #invisibila #30031
-URL-ONLY = "https://www.npr.org/rss/podcast.php?id=510052" #onlyagame #30032
-URL-PLANET = "https://www.npr.org/templates/rss/podcast.php?id=510289" #PlanetMoney #30004
-URL-WAIT = "https://www.npr.org/templates/rss/podcast.php?id=344098539" #WaitwaitDont #30001
-URL-WOW = "https://www.npr.org/rss/podcast.php?id=510321" #wowintheworld #30033
+URLASK = "https://www.npr.org/rss/podcast.php?id=510299" #Askmeanother #30008
+URLCAR = "https://www.npr.org/rss/podcast.php?id=510208" #bestofcartalk #30029
+URLBULLSEYE = "https://www.npr.org/rss/podcast.php?id=510309" #bullseye #30030
+URLHIDDEN = "https://www.npr.org/rss/podcast.php?id=510308" #hiddenbrain #30003
+URLBUILT = "https://www.npr.org/rss/podcast.php?id=510313" #HowIbuilt #30002
+URLINVISIBILIA = "https://www.npr.org/templates/rss/podcast.php?id=510307" #invisibila #30031
+URLONLY = "https://www.npr.org/rss/podcast.php?id=510052" #onlyagame #30032
+URLPLANET = "https://www.npr.org/templates/rss/podcast.php?id=510289" #PlanetMoney #30004
+URLWAIT = "https://www.npr.org/templates/rss/podcast.php?id=344098539" #WaitwaitDont #30001
+URLWOW = "https://www.npr.org/rss/podcast.php?id=510321" #wowintheworld #30033
 
 #Music
-URL-SONGS = "https://www.npr.org/rss/podcast.php?id=510019&uid=n1qe4e85742c986fdb81d2d38ffa0d5d53" #AllSONGS #30034
-URL-TINY = "https://www.npr.org/templates/rss/podcast.php?id=510306"#TinyDesk  #30035
-URL-LATINO = "https://www.npr.org/templates/rss/podcast.php?id=510305"#Altlatino #30036
-URL-MOUNTAIN = "https://feedpress.me/mountainstagepodcast"#NPRMountainStage #30037
-URL-FTT = "https://www.npr.org/rss/podcast.php?id=510026" #Fromthetop #30038
-URL-LIVE = "https://www.npr.org/rss/podcast.php?id=510253" #LiveInConcertAllSongsCons #30039
+URLSONGS = "https://www.npr.org/rss/podcast.php?id=510019&uid=n1qe4e85742c986fdb81d2d38ffa0d5d53" #AllSONGS #30034
+URLTINY = "https://www.npr.org/templates/rss/podcast.php?id=510306"#TinyDesk  #30035
+URLLATINO = "https://www.npr.org/templates/rss/podcast.php?id=510305"#Altlatino #30036
+URLMOUNTAIN = "https://feedpress.me/mountainstagepodcast"#NPRMountainStage #30037
+URLFTT = "https://www.npr.org/rss/podcast.php?id=510026" #Fromthetop #30038
+URLLIVE = "https://www.npr.org/rss/podcast.php?id=510253" #LiveInConcertAllSongsCons #30039
 
 
 @plugin.route('/')
