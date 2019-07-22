@@ -93,7 +93,6 @@ def get_playable_podcast2(soup2):
 #                'desc': desc,
                 'thumbnail': "https://media.npr.org/assets/img/2019/05/23/screen-shot-2019-05-23-at-8.46.21-am_sq-7dcea391e7a87ca3569fe3d2047dda0144e5d86f.png?s=1400"
         }
-        
         subjects.append(item) 
     return subjects
 
@@ -135,7 +134,6 @@ def get_playable_podcast3(soup3):
 #                'desc': desc,
                 'thumbnail': "https://media.npr.org/assets/img/2019/05/23/screen-shot-2019-05-23-at-8.46.21-am_sq-7dcea391e7a87ca3569fe3d2047dda0144e5d86f.png?s=1400"
         }
-        
         subjects.append(item) 
     return subjects
 
