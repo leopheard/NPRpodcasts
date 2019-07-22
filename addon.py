@@ -17,7 +17,7 @@ URLASK = "https://www.npr.org/rss/podcast.php?id=510299" #Askmeanother #30008
 #ALT-URL-THINGS = "https://rss-npr-podcasts.herokuapp.com/rss/all-things-considered"
 #ALT-URL-MORNING = "https://rss-npr-podcasts.herokuapp.com/rss/morning-edition"
 URLWEEKENDSAT = "https://rss-npr-podcasts.herokuapp.com/rss/weekend-edition-saturday"#WeekendSat #30011
-URL-WEEKENDSUN = "https://rss-npr-podcasts.herokuapp.com/rss/weekend-edition-sunday"#WeekendSun #30012
+URLWEEKENDSUN = "https://rss-npr-podcasts.herokuapp.com/rss/weekend-edition-sunday"#WeekendSun #30012
 URLMORNING = "http://npr.pyther.net/podcast/morning-edition"#Morning Edition #30009
 URLTHINGS = "http://npr.pyther.net/podcast/all-things-considered"#AllThingsConsidered #30010
 URLHERE = "https://www.npr.org/rss/podcast.php?id=510051" #HereNow #30013
