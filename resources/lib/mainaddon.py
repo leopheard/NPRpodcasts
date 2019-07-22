@@ -3,26 +3,31 @@ import re
 from bs4 import BeautifulSoup
 
 def get_soup1(URL-WAIT):
-    """
-    @param: url of site to be scraped
-    """
     page = requests.get(URL-WAIT)
     soup1 = BeautifulSoup(page.text, 'html.parser')
-    
     print "type: ", type(soup1)
     return soup1
+get_soup1("https://www.npr.org/rss/podcast.php?id=344098539")
 
-get_soup("https://www.npr.org/rss/podcast.php?id=344098539")
+def get_soup2(URL-HOW):
+    page = requests.get(URL-HOW)
+    soup1 = BeautifulSoup(page.text, 'html.parser')
+    print "type: ", type(soup2)
+    return soup2
+get_soup2("https://www.npr.org/rss/podcast.php?id=510313")
+
+def get_soup3(URL-HIDDEN):
+    page = requests.get(URL-HOW)
+    soup3 = BeautifulSoup(page.text, 'html.parser')
+    print "type: ", type(soup3)
+    return soup3
+get_soup3("https://www.npr.org/rss/podcast.php?id=510308")
 
 
-def get_playable_podcast(soup):
-    """
-    @param: parsed html page            
-    """
+
+def get_playable_podcast1(soup1):
     subjects = []
-
-    for content in soup.find_all('item'):
-        
+    for content in soup1.find_all('item'):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
@@ -36,76 +41,16 @@ def get_playable_podcast(soup):
 
 #            thumbnail = content.find('itunes:image')
 #            thumbnail = thumbnail.get('href')
-
         except AttributeError:
             continue
-              
         item = {
                 'url': link,
                 'title': title,
 #                'desc': desc,
                 'thumbnail': "https://media.npr.org/assets/img/2019/05/23/screen-shot-2019-05-23-at-8.46.21-am_sq-7dcea391e7a87ca3569fe3d2047dda0144e5d86f.png?s=1400"
         }
-        
         subjects.append(item) 
-    
     return subjects
-
-
-def compile_playable_podcast(playable_podcast):
-    """
-    @para: list containing dict of key/values pairs for playable podcasts
-    """
-    items = []
-
-    for podcast in playable_podcast:
-        items.append({
-            'label': podcast['title'],
-            'thumbnail': podcast['thumbnail'],
-            'path': podcast['url'],
-#            'info': podcast['desc'],
-            'is_playable': True,
-    })
-
-    return items
-
-
-def get_playable_podcast1(soup):
-    """
-    @param: parsed html page            
-    """
-    subjects = []
-
-    for content in soup.find_all('item', limit=3):
-        
-        try:        
-            link = content.find('enclosure')
-            link = link.get('url')
-            print "\n\nLink: ", link
-
-            title = content.find('title')
-            title = title.get_text()
-
-#            desc = content.find('description')
-#            desc = desc.get_text()
-
-#            thumbnail = content.find('itunes:image')
-#            thumbnail = thumbnail.get('href')
-
-        except AttributeError:
-            continue
-              
-        item = {
-                'url': link,
-                'title': title,
-#                'desc': desc,
-                'thumbnail': "https://media.npr.org/assets/img/2019/05/23/screen-shot-2019-05-23-at-8.46.21-am_sq-7dcea391e7a87ca3569fe3d2047dda0144e5d86f.png?s=1400"
-        }
-        
-        subjects.append(item) 
-    
-    return subjects
-
 
 def compile_playable_podcast1(playable_podcast1):
     """
@@ -122,4 +67,46 @@ def compile_playable_podcast1(playable_podcast1):
             'is_playable': True,
     })
 
+    return items
+
+def get_playable_podcast2(soup2):
+    subjects = []
+    for content in soup2.find_all('item'):
+        try:        
+            link = content.find('enclosure')
+            link = link.get('url')
+            print "\n\nLink: ", link
+
+            title = content.find('title')
+            title = title.get_text()
+
+#            desc = content.find('description')
+#            desc = desc.get_text()
+
+#            thumbnail = content.find('itunes:image')
+#            thumbnail = thumbnail.get('href')
+
+        except AttributeError:
+            continue
+        item = {
+                'url': link,
+                'title': title,
+#                'desc': desc,
+                'thumbnail': "https://media.npr.org/assets/img/2019/05/23/screen-shot-2019-05-23-at-8.46.21-am_sq-7dcea391e7a87ca3569fe3d2047dda0144e5d86f.png?s=1400"
+        }
+        
+        subjects.append(item) 
+    return subjects
+
+
+def compile_playable_podcast2(playable_podcast2):
+    items = []
+    for podcast in playable_podcast2:
+        items.append({
+            'label': podcast['title'],
+            'thumbnail': podcast['thumbnail'],
+            'path': podcast['url'],
+#            'info': podcast['desc'],
+            'is_playable': True,
+    })
     return items

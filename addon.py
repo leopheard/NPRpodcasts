@@ -254,88 +254,81 @@ def all_episodes1():
     return items
 @plugin.route('/all_episodes2/')
 def all_episodes2():
-    soup2 = mainaddon.get_soup(URL2)
+    soup2 = mainaddon.get_soup(URL-HOW)
     playable_podcast2 = mainaddon.get_playable_podcast1(soup2)
     items = mainaddon.compile_playable_podcast2(playable_podcast2)
     return items
 @plugin.route('/all_episodes3/')
 def all_episodes3():
-    soup3 = mainaddon.get_soup3(URL3)
+    soup3 = mainaddon.get_soup3(URL-HIDDEN)
     playable_podcast3 = mainaddon.get_playable_podcast1(soup3)
     items = mainaddon.compile_playable_podcast1(playable_podcast3)
     return items
-@plugin.route('/all_episodes1/')
-def all_episodes1():
-    soup = mainaddon.get_soup(URL1)
-    playable_podcast1 = mainaddon.get_playable_podcast1(soup)
-    items = mainaddon.compile_playable_podcast1(playable_podcast1)
+@plugin.route('/all_episodes4/')
+def all_episodes4():
+    soup4 = mainaddon.get_soup(URL4)   
+    playable_podcast4 = mainaddon.get_playable_podcast1(soup4)
+    items = mainaddon.compile_playable_podcast4(playable_podcast4)
     return items
-@plugin.route('/all_episodes1/')
-def all_episodes1():
-    soup = mainaddon.get_soup(URL1)   
-    playable_podcast1 = mainaddon.get_playable_podcast1(soup)
-    items = mainaddon.compile_playable_podcast1(playable_podcast1)
+@plugin.route('/all_episodes5/')
+def all_episodes5():
+    soup5 = mainaddon.get_soup(URL5)
+    playable_podcast5 = mainaddon.get_playable_podcast1(soup5)
+    items = mainaddon.compile_playable_podcast5(playable_podcast5)
     return items
-@plugin.route('/all_episodes1/')
-def all_episodes1():
-    soup = mainaddon.get_soup(URL1)
-    playable_podcast1 = mainaddon.get_playable_podcast1(soup)
-    items = mainaddon.compile_playable_podcast1(playable_podcast1)
+@plugin.route('/all_episodes6/')
+def all_episodes6():
+    soup6 = mainaddon.get_soup(URL6)
+    playable_podcast6 = mainaddon.get_playable_podcast6(soup6)
+    items = mainaddon.compile_playable_podcast6(playable_podcast6)
     return items
-@plugin.route('/all_episodes1/')
-def all_episodes1():
-    soup = mainaddon.get_soup(URL1)
-    playable_podcast1 = mainaddon.get_playable_podcast1(soup)
-    items = mainaddon.compile_playable_podcast1(playable_podcast1)
+@plugin.route('/all_episodes7/')
+def all_episodes7():
+    soup7 = mainaddon.get_soup7(URL7)
+    playable_podcast1 = mainaddon.get_playable_podcast7(soup7) 
+    items = mainaddon.compile_playable_podcast7(playable_podcast7)
     return items
-@plugin.route('/all_episodes1/')
-def all_episodes1():
-    soup = mainaddon.get_soup(URL1)
-    playable_podcast1 = mainaddon.get_playable_podcast1(soup) 
-    items = mainaddon.compile_playable_podcast1(playable_podcast1)
+@plugin.route('/all_episodes8/')
+def all_episodes8():
+    soup8 = mainaddon.get_soup(URL8)
+    playable_podcast8 = mainaddon.get_playable_podcast8(soup8)
+    items = mainaddon.compile_playable_podcast8(playable_podcast8)
     return items
-@plugin.route('/all_episodes1/')
-def all_episodes1():
-    soup = mainaddon.get_soup(URL1)
-    playable_podcast1 = mainaddon.get_playable_podcast1(soup)
-    items = mainaddon.compile_playable_podcast1(playable_podcast1)
+@plugin.route('/all_episodes9/')
+def all_episodes9():
+    soup9 = mainaddon.get_soup(URL9)
+    playable_podcast9 = mainaddon.get_playable_podcast1(soup9)
+    items = mainaddon.compile_playable_podcast9(playable_podcast9)
     return items
-@plugin.route('/all_episodes1/')
-def all_episodes1():
-    soup = mainaddon.get_soup(URL1)
-    playable_podcast1 = mainaddon.get_playable_podcast1(soup)
-    items = mainaddon.compile_playable_podcast1(playable_podcast1)
+@plugin.route('/all_episodes10/')
+def all_episodes10():
+    soup10 = mainaddon.get_soup10(URL10)
+    playable_podcast1 = mainaddon.get_playable_podcast1(soup10)
+    items = mainaddon.compile_playable_podcast10(playable_podcast10)
     return items
-@plugin.route('/all_episodes1/')
-def all_episodes1():
-    soup = mainaddon.get_soup(URL1)
-    playable_podcast1 = mainaddon.get_playable_podcast1(soup)
-    items = mainaddon.compile_playable_podcast1(playable_podcast1)
+@plugin.route('/all_episodes11/')
+def all_episodes11():
+    soup11 = mainaddon.get_soup11(URL11)
+    playable_podcast11 = mainaddon.get_playable_podcast11(soup11)
+    items = mainaddon.compile_playable_podcast11(playable_podcast11)
     return items
-
-@plugin.route('/all_episodes1/')
-def all_episodes1():
-    soup = mainaddon.get_soup(URL1)
-    playable_podcast1 = mainaddon.get_playable_podcast1(soup)
-    items = mainaddon.compile_playable_podcast1(playable_podcast1)
+@plugin.route('/all_episodes12/')
+def all_episodes12():
+    soup12 = mainaddon.get_soup12(URL12) 
+    playable_podcast12 = mainaddon.get_playable_podcast12(soup12)
+    items = mainaddon.compile_playable_podcast12(playable_podcast12)
     return items
-@plugin.route('/all_episodes1/')
-def all_episodes1():
-    soup = mainaddon.get_soup(URL1) 
-    playable_podcast1 = mainaddon.get_playable_podcast1(soup)
-    items = mainaddon.compile_playable_podcast1(playable_podcast1)
+@plugin.route('/all_episodes13/')
+def all_episodes13():
+    soup13 = mainaddon.get_soup13(URL13)
+    playable_podcast13 = mainaddon.get_playable_podcast13(soup13)
+    items = mainaddon.compile_playable_podcast13(playable_podcast13)
     return items
-@plugin.route('/all_episodes1/')
-def all_episodes1():
-    soup = mainaddon.get_soup(URL1)
-    playable_podcast1 = mainaddon.get_playable_podcast1(soup)
-    items = mainaddon.compile_playable_podcast1(playable_podcast1)
-    return items
-@plugin.route('/all_episodes1/')
-def all_episodes1():
-    soup = mainaddon.get_soup(URL1)
-    playable_podcast1 = mainaddon.get_playable_podcast1(soup)
-    items = mainaddon.compile_playable_podcast1(playable_podcast1)
+@plugin.route('/all_episodes14/')
+def all_episodes14():
+    soup14 = mainaddon.get_soup14(URL14)
+    playable_podcast14 = mainaddon.get_playable_podcast14(soup14)
+    items = mainaddon.compile_playable_podcast14(playable_podcast14)
     return items
 @plugin.route('/ all_episodes15/')
 def  all_episodes15():
@@ -366,12 +359,14 @@ def  all_episodes19():
     soup19 = mainaddon.get_soup19(URL19)
     playable_podcast19 = mainaddon.get_playable_podcast19(soup19)
     items = mainaddon.compile_playable_podcast19(playable_podcast19)
-    return items@plugin.route('/ all_episodes19/')
+    return items
+@plugin.route('/ all_episodes19/')
 def  all_episodes20():
     soup20 = mainaddon.get_soup20(URL20)
     playable_podcast20 = mainaddon.get_playable_podcast20(soup20)
     items = mainaddon.compile_playable_podcast20(playable_podcast20)
-    return items@plugin.route('/ all_episodes20/')
+    return items
+@plugin.route('/ all_episodes20/')
 def  all_episodes21():
     soup21 = mainaddon.get_soup21(URL21)
     playable_podcast21 = mainaddon.get_playable_podcast21(soup21)
