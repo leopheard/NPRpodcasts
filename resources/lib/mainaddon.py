@@ -10,7 +10,7 @@ def get_soup1(URLWAIT):
 get_soup1("https://www.npr.org/rss/podcast.php?id=344098539")
 
 def get_soup2(URLHOW):
-    page = requests.get(URL-HOW)
+    page = requests.get(URLHOW)
     soup2 = BeautifulSoup(page.text, 'html.parser')
     print "type: ", type(soup2)
     return soup2
