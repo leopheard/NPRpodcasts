@@ -4,14 +4,14 @@ from resources.lib import mainaddon
 plugin = Plugin()
 
 #Featured
-URLHIDDEN = "https://www.npr.org/rss/podcast.php?id=510308" #Hiddenbrain #30003
-URLBUILT = "https://www.npr.org/rss/podcast.php?id=510313" #HowIbuilt #30002
-URLWAIT = "https://www.npr.org/templates/rss/podcast.php?id=344098539" #WaitWait #30001
-URLPLANET = "https://www.npr.org/templates/rss/podcast.php?id=510289" #PlanetMoney #30004
-URLCOLLEGE = "https://www.npr.org/rss/podcast.php?id=510345" #Howtopayforcollege #30005
-URLWHITE = "https://www.npr.org/rss/podcast.php?id=510343" #Whitelies #30006
-URLROUGH = "https://www.npr.org/rss/podcast.php?id=510324" #Roughtrans #30007
-URLASK = "https://www.npr.org/rss/podcast.php?id=510299" #Askmeanother #30008
+URL3 = "https://www.npr.org/rss/podcast.php?id=510308" #Hiddenbrain #30003
+URL2 = "https://www.npr.org/rss/podcast.php?id=510313" #HowIbuilt #30002
+URL1 = "https://www.npr.org/templates/rss/podcast.php?id=344098539" #WaitWait #30001
+URL4 = "https://www.npr.org/templates/rss/podcast.php?id=510289" #PlanetMoney #30004
+URL5 = "https://www.npr.org/rss/podcast.php?id=510345" #Howtopayforcollege #30005
+URL6 = "https://www.npr.org/rss/podcast.php?id=510343" #Whitelies #30006
+URL7 = "https://www.npr.org/rss/podcast.php?id=510324" #Roughtrans #30007
+URL8 = "https://www.npr.org/rss/podcast.php?id=510299" #Askmeanother #30008
 
 #Daily
 #ALT-URL-THINGS = "https://rss-npr-podcasts.herokuapp.com/rss/all-things-considered"
@@ -248,19 +248,19 @@ def main_menu():
 
 @plugin.route('/all_episodes1/')
 def all_episodes1():
-    soup1 = mainaddon.get_soup1(URLWAIT)
+    soup1 = mainaddon.get_soup1(URL1)
     playable_podcast1 = mainaddon.get_playable_podcast1(soup1)
     items = mainaddon.compile_playable_podcast1(playable_podcast1)
     return items
 @plugin.route('/all_episodes2/')
 def all_episodes2():
-    soup2 = mainaddon.get_soup(URLHOW)
+    soup2 = mainaddon.get_soup(URL2)
     playable_podcast2 = mainaddon.get_playable_podcast2(soup2)
     items = mainaddon.compile_playable_podcast2(playable_podcast2)
     return items
 @plugin.route('/all_episodes3/')
 def all_episodes3():
-    soup3 = mainaddon.get_soup3(URLHIDDEN)
+    soup3 = mainaddon.get_soup3(URL3)
     playable_podcast3 = mainaddon.get_playable_podcast3(soup3)
     items = mainaddon.compile_playable_podcast3(playable_podcast3)
     return items
