@@ -4,14 +4,14 @@ from resources.lib import mainaddon
 plugin = Plugin()
 
 #Featured
-URL-HIDDEN = "https://www.npr.org/rss/podcast.php?id=510308" #Hiddenbrain #30003
-URL-BUILT = "https://www.npr.org/rss/podcast.php?id=510313" #HowIbuilt #30002
-URL-WAIT = "https://www.npr.org/templates/rss/podcast.php?id=344098539" #WaitWait #30001
-URL-PLANET = "https://www.npr.org/templates/rss/podcast.php?id=510289" #PlanetMoney #30004
-URL-COLLEGE = "https://www.npr.org/rss/podcast.php?id=510345" #Howtopayforcollege #30005
-URL-WHITE = "https://www.npr.org/rss/podcast.php?id=510343" #Whitelies #30006
-URL-ROUGH = "https://www.npr.org/rss/podcast.php?id=510324" #Roughtrans #30007
-URL-ASK = "https://www.npr.org/rss/podcast.php?id=510299" #Askmeanother #30008
+URLHIDDEN = "https://www.npr.org/rss/podcast.php?id=510308" #Hiddenbrain #30003
+URLBUILT = "https://www.npr.org/rss/podcast.php?id=510313" #HowIbuilt #30002
+URLWAIT = "https://www.npr.org/templates/rss/podcast.php?id=344098539" #WaitWait #30001
+URLPLANET = "https://www.npr.org/templates/rss/podcast.php?id=510289" #PlanetMoney #30004
+URLCOLLEGE = "https://www.npr.org/rss/podcast.php?id=510345" #Howtopayforcollege #30005
+URLWHITE = "https://www.npr.org/rss/podcast.php?id=510343" #Whitelies #30006
+URLROUGH = "https://www.npr.org/rss/podcast.php?id=510324" #Roughtrans #30007
+URLASK = "https://www.npr.org/rss/podcast.php?id=510299" #Askmeanother #30008
 
 #Daily
 #ALT-URL-THINGS = "https://rss-npr-podcasts.herokuapp.com/rss/all-things-considered"
