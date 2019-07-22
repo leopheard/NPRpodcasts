@@ -11,7 +11,7 @@ get_soup1("https://www.npr.org/rss/podcast.php?id=344098539")
 
 def get_soup2(URLHOW):
     page = requests.get(URL-HOW)
-    soup1 = BeautifulSoup(page.text, 'html.parser')
+    soup2 = BeautifulSoup(page.text, 'html.parser')
     print "type: ", type(soup2)
     return soup2
 get_soup2("https://www.npr.org/rss/podcast.php?id=510313")
@@ -22,7 +22,6 @@ def get_soup3(URLHIDDEN):
     print "type: ", type(soup3)
     return soup3
 get_soup3("https://www.npr.org/rss/podcast.php?id=510308")
-
 
 
 def get_playable_podcast1(soup1):
