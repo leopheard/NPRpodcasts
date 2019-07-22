@@ -206,7 +206,7 @@ def main_menu():
             'thumbnail': ""},
         {
             'label': plugin.get_string(30033),#WOWINTHEWORLD
-            'path': plugin.url_for('all_episodes'),
+            'path': plugin.url_for('all_episodes33'),
             'thumbnail': ""},
         {
             'label': plugin.get_string(30034),#ALLSONGS
