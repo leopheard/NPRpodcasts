@@ -248,21 +248,21 @@ def main_menu():
 
 @plugin.route('/all_episodes1/')
 def all_episodes1():
-    soup1 = mainaddon.get_soup1(URL-WAIT)
+    soup1 = mainaddon.get_soup1(URLWAIT)
     playable_podcast1 = mainaddon.get_playable_podcast1(soup1)
     items = mainaddon.compile_playable_podcast1(playable_podcast1)
     return items
 @plugin.route('/all_episodes2/')
 def all_episodes2():
-    soup2 = mainaddon.get_soup(URL-HOW)
-    playable_podcast2 = mainaddon.get_playable_podcast1(soup2)
+    soup2 = mainaddon.get_soup(URLHOW)
+    playable_podcast2 = mainaddon.get_playable_podcast2(soup2)
     items = mainaddon.compile_playable_podcast2(playable_podcast2)
     return items
 @plugin.route('/all_episodes3/')
 def all_episodes3():
-    soup3 = mainaddon.get_soup3(URL-HIDDEN)
-    playable_podcast3 = mainaddon.get_playable_podcast1(soup3)
-    items = mainaddon.compile_playable_podcast1(playable_podcast3)
+    soup3 = mainaddon.get_soup3(URLHIDDEN)
+    playable_podcast3 = mainaddon.get_playable_podcast3(soup3)
+    items = mainaddon.compile_playable_podcast3(playable_podcast3)
     return items
 @plugin.route('/all_episodes4/')
 def all_episodes4():
