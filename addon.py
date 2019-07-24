@@ -16,55 +16,56 @@ URL8 = "https://www.npr.org/rss/podcast.php?id=510299" #Askmeanother #30008
 #Daily
 #ALT-URL-THINGS = "https://rss-npr-podcasts.herokuapp.com/rss/all-things-considered"
 #ALT-URL-MORNING = "https://rss-npr-podcasts.herokuapp.com/rss/morning-edition"
-URLWEEKENDSAT = "https://rss-npr-podcasts.herokuapp.com/rss/weekend-edition-saturday"#WeekendSat #30011
-URLWEEKENDSUN = "https://rss-npr-podcasts.herokuapp.com/rss/weekend-edition-sunday"#WeekendSun #30012
-URLMORNING = "http://npr.pyther.net/podcast/morning-edition"#Morning Edition #30009
-URLTHINGS = "http://npr.pyther.net/podcast/all-things-considered"#AllThingsConsidered #30010
-URLHERE = "https://www.npr.org/rss/podcast.php?id=510051" #HereNow #30013
-URLONPOINT = "https://www.npr.org/rss/podcast.php?id=510053" #OnpointWBUR #30014
-URLINDICATOR = "https://www.npr.org/rss/podcast.php?id=510325" #indictatorplanetmoney #30015
-URLFRESH = "https://www.npr.org/rss/podcast.php?id=381444908" #freshair #30016
-URLUP = "https://www.npr.org/rss/podcast.php?id=510318" #upfirst #30017
-URLONEA = "https://www.npr.org/rss/podcast.php?id=510316" #ONEA #30018
+URL11 = "https://rss-npr-podcasts.herokuapp.com/rss/weekend-edition-saturday"#WeekendSat #30011
+URL12 = "https://rss-npr-podcasts.herokuapp.com/rss/weekend-edition-sunday"#WeekendSun #30012
+URL9 = "http://npr.pyther.net/podcast/morning-edition"#Morning Edition #30009
+URL10 = "http://npr.pyther.net/podcast/all-things-considered"#AllThingsConsidered #30010
+URL13 = "https://www.npr.org/rss/podcast.php?id=510051" #HereNow #30013
+URL14 = "https://www.npr.org/rss/podcast.php?id=510053" #OnpointWBUR #30014
+URL15 = "https://www.npr.org/rss/podcast.php?id=510325" #indictatorplanetmoney #30015
+URL16 = "https://www.npr.org/rss/podcast.php?id=381444908" #freshair #30016
+URL17 = "https://www.npr.org/rss/podcast.php?id=510318" #upfirst #30017
+URL18 = "https://www.npr.org/rss/podcast.php?id=510316" #ONEA #30018
 
 #NewsConversations
-URLNOW = "https://www.npr.org/rss/podcast.php?id=500005" #NPRNewsNow #30019
-URLHERE = "https://www.npr.org/rss/podcast.php?id=510051" #HereNow #30013
-URLONPOINT = "https://www.npr.org/rss/podcast.php?id=510053" #OnpointWBUR #30014
-URLINDICATOR = "https://www.npr.org/rss/podcast.php?id=510325" #indictatorplanetmoney #30015
-URLFRESH = "https://www.npr.org/rss/podcast.php?id=381444908" #freshair #30016
-URLUP = "https://www.npr.org/rss/podcast.php?id=510318" #upfirst #30017
-URLONEA = "https://www.npr.org/rss/podcast.php?id=510316" #ONEA #30018
-URLBELIEVED = "https://www.npr.org/rss/podcast.php?id=510326" #Believed #30020
-URLCODE = "https://www.npr.org/rss/podcast.php?id=510312" #Codesw #30021
-URLEMBEDDED = "https://www.npr.org/rss/podcast.php?id=510311" #Embedded #30022
-URLITBEEN = "https://www.npr.org/rss/podcast.php?id=510317" #Itbeenaminute #30023
-URLLATINO = "https://www.npr.org/rss/podcast.php?id=510016" #latinoUSA #30024
-URLPOLITICS = "https://www.npr.org/rss/podcast.php?id=510310" #NPRpolitics #30025
-URLTHROUGH = "https://www.npr.org/rss/podcast.php?id=510333" #thoughline #30026
-URLWHATS = "https://www.npr.org/rss/podcast.php?id=510323" #whatsgoodwith #30027
-URLYR = "https://www.npr.org/rss/podcast.php?id=4692815" #YRmedia #30028
+URL19 = "https://www.npr.org/rss/podcast.php?id=500005" #NPRNewsNow #30019
+URL13 = "https://www.npr.org/rss/podcast.php?id=510051" #HereNow #30013
+URL14 = "https://www.npr.org/rss/podcast.php?id=510053" #OnpointWBUR #30014
+URL15 = "https://www.npr.org/rss/podcast.php?id=510325" #indictatorplanetmoney #30015
+URL16 = "https://www.npr.org/rss/podcast.php?id=381444908" #freshair #30016
+URL17 = "https://www.npr.org/rss/podcast.php?id=510318" #upfirst #30017
+URL18 = "https://www.npr.org/rss/podcast.php?id=510316" #ONEA #30018
+URL20 = "https://www.npr.org/rss/podcast.php?id=510326" #Believed #30020
+URL21 = "https://www.npr.org/rss/podcast.php?id=510312" #Codesw #30021
+URL22 = "https://www.npr.org/rss/podcast.php?id=510311" #Embedded #30022
+URL23 = "https://www.npr.org/rss/podcast.php?id=510317" #Itbeenaminute #30023
+URL24 = "https://www.npr.org/rss/podcast.php?id=510016" #latinoUSA #30024
+URL25 = "https://www.npr.org/rss/podcast.php?id=510310" #NPRpolitics #30025
+URL26 = "https://www.npr.org/rss/podcast.php?id=510333" #thoughline #30026
+URL27 = "https://www.npr.org/rss/podcast.php?id=510323" #whatsgoodwith #30027
+URL28 = "https://www.npr.org/rss/podcast.php?id=4692815" #YRmedia #30028
 
 #StorytellingHumor
-URLASK = "https://www.npr.org/rss/podcast.php?id=510299" #Askmeanother #30008
-URLCAR = "https://www.npr.org/rss/podcast.php?id=510208" #bestofcartalk #30029
-URLBULLSEYE = "https://www.npr.org/rss/podcast.php?id=510309" #bullseye #30030
-URLHIDDEN = "https://www.npr.org/rss/podcast.php?id=510308" #hiddenbrain #30003
-URLBUILT = "https://www.npr.org/rss/podcast.php?id=510313" #HowIbuilt #30002
-URLINVISIBILIA = "https://www.npr.org/templates/rss/podcast.php?id=510307" #invisibila #30031
-URLONLY = "https://www.npr.org/rss/podcast.php?id=510052" #onlyagame #30032
-URLPLANET = "https://www.npr.org/templates/rss/podcast.php?id=510289" #PlanetMoney #30004
-URLWAIT = "https://www.npr.org/templates/rss/podcast.php?id=344098539" #WaitwaitDont #30001
-URLWOW = "https://www.npr.org/rss/podcast.php?id=510321" #wowintheworld #30033
+URL8 = "https://www.npr.org/rss/podcast.php?id=510299" #Askmeanother #30008
+URL29 = "https://www.npr.org/rss/podcast.php?id=510208" #bestofcartalk #30029
+URL30 = "https://www.npr.org/rss/podcast.php?id=510309" #bullseye #30030
+URL3 = "https://www.npr.org/rss/podcast.php?id=510308" #hiddenbrain #30003
+URL2 = "https://www.npr.org/rss/podcast.php?id=510313" #HowIbuilt #30002
+URL31 = "https://www.npr.org/templates/rss/podcast.php?id=510307" #invisibila #30031
+URL32 = "https://www.npr.org/rss/podcast.php?id=510052" #onlyagame #30032
+URL4 = "https://www.npr.org/templates/rss/podcast.php?id=510289" #PlanetMoney #30004
+URL1 = "https://www.npr.org/templates/rss/podcast.php?id=344098539" #WaitwaitDont #30001
+URL33 = "https://www.npr.org/rss/podcast.php?id=510321" #wowintheworld #30033
 
 #Music
-URLSONGS = "https://www.npr.org/rss/podcast.php?id=510019&uid=n1qe4e85742c986fdb81d2d38ffa0d5d53" #AllSONGS #30034
-URLTINY = "https://www.npr.org/templates/rss/podcast.php?id=510306"#TinyDesk  #30035
-URLLATINO = "https://www.npr.org/templates/rss/podcast.php?id=510305"#Altlatino #30036
-URLMOUNTAIN = "https://feedpress.me/mountainstagepodcast"#NPRMountainStage #30037
-URLFTT = "https://www.npr.org/rss/podcast.php?id=510026" #Fromthetop #30038
-URLLIVE = "https://www.npr.org/rss/podcast.php?id=510253" #LiveInConcertAllSongsCons #30039
+URL34 = "https://www.npr.org/rss/podcast.php?id=510019&uid=n1qe4e85742c986fdb81d2d38ffa0d5d53" #AllSONGS #30034
+URL35 = "https://www.npr.org/templates/rss/podcast.php?id=510306"#TinyDesk  #30035
+URL36 = "https://www.npr.org/templates/rss/podcast.php?id=510305"#Altlatino #30036
+URL37 = "https://feedpress.me/mountainstagepodcast"#NPRMountainStage #30037
+URL38 = "https://www.npr.org/rss/podcast.php?id=510026" #Fromthetop #30038
+URL39 = "https://www.npr.org/rss/podcast.php?id=510253" #LiveInConcertAllSongsCons #30039
 
+URL40 = "https://www.npr.org/rss/podcast.php?id=510347" #BeAPowerful #30040
 
 @plugin.route('/')
 def main_menu():
@@ -79,19 +80,19 @@ def main_menu():
         {
             'label': plugin.get_string(30001),#WAIT
             'path': plugin.url_for('all_episodes1'),
-            'thumbnail': "https://media.npr.org/assets/img/2019/05/23/screen-shot-2019-05-23-at-8.46.21-am_sq-7dcea391e7a87ca3569fe3d2047dda0144e5d86f-s400-c85.png"},
+            'thumbnail': "resources/media/wait.jpg"},
         {
             'label': plugin.get_string(30002),#HOW
             'path': plugin.url_for('all_episodes2'),
-            'thumbnail': "https://media.npr.org/assets/img/2018/08/03/npr_hibt_podcasttile_sq-98320b282169a8cea04a406530e6e7b957665b3f-s300-c85.jpg"},
+            'thumbnail': "resources/media/how.jpg"},
         {
             'label': plugin.get_string(30003),#HIDDEN
             'path': plugin.url_for('all_episodes3'),
-            'thumbnail': "https://media.npr.org/assets/img/2018/08/03/npr_hiddenbrain_podcasttile_sq-270ab642de6948802f485c6ad1f087239ef6e324-s300-c85.jpg"},
+            'thumbnail': "resources/media/hidden.jpg"},
         {
             'label': plugin.get_string(30004),#PLANET
             'path': plugin.url_for('all_episodes4'),
-            'thumbnail': "https://media.npr.org/assets/img/2018/08/02/npr_planetmoney_podcasttile_sq-7b7fab0b52fd72826936c3dbe51cff94889797a0-s300-c85.jpg"},
+            'thumbnail': "resources/media/planet.jpg"},
         {
             'label': plugin.get_string(30005),#COLLEGE
             'path': plugin.url_for('all_episodes5'),
