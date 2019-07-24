@@ -16,10 +16,10 @@ URL8 = "https://www.npr.org/rss/podcast.php?id=510299" #Askmeanother #30008
 #Daily
 #ALT-URL-THINGS = "https://rss-npr-podcasts.herokuapp.com/rss/all-things-considered"
 #ALT-URL-MORNING = "https://rss-npr-podcasts.herokuapp.com/rss/morning-edition"
-URL11 = "https://rss-npr-podcasts.herokuapp.com/rss/weekend-edition-saturday"#WeekendSat #30011
-URL12 = "https://rss-npr-podcasts.herokuapp.com/rss/weekend-edition-sunday"#WeekendSun #30012
 URL9 = "http://npr.pyther.net/podcast/morning-edition"#Morning Edition #30009
 URL10 = "http://npr.pyther.net/podcast/all-things-considered"#AllThingsConsidered #30010
+URL11 = "https://rss-npr-podcasts.herokuapp.com/rss/weekend-edition-saturday"#WeekendSat #30011
+URL12 = "https://rss-npr-podcasts.herokuapp.com/rss/weekend-edition-sunday"#WeekendSun #30012
 URL13 = "https://www.npr.org/rss/podcast.php?id=510051" #HereNow #30013
 URL14 = "https://www.npr.org/rss/podcast.php?id=510053" #OnpointWBUR #30014
 URL15 = "https://www.npr.org/rss/podcast.php?id=510325" #indictatorplanetmoney #30015
@@ -80,7 +80,7 @@ def main_menu():
         {
             'label': plugin.get_string(30001),#WAIT
             'path': plugin.url_for('all_episodes1'),
-            'thumbnail': "resources/media/wait.jpg"},
+            'thumbnail': "~/resources/media/wait.jpg"},
         {
             'label': plugin.get_string(30002),#HOW
             'path': plugin.url_for('all_episodes2'),

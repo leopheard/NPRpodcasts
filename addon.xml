@@ -14,7 +14,7 @@
     <platform>all</platform>
     <language></language>
     <summary lang="en">NPR Podcasts</summary>
-    <description lang="en">All Podcasts from NPR</description>
+    <description lang="en">All the major podcasts from NPR</description>
     <license>The MIT License (MIT)</license>
     <forum></forum>
     <email>leopheard@gmail.com</email>
@@ -25,8 +25,8 @@
 			<icon>resources/media/icon.jpeg</icon>
 			<fanart>resources/media/fanart.png</fanart>
 			<screenshot>resources/media/screen1.png</screenshot>
-			<screenshot>resources/media/screen2.png</screenshot>
-			<screenshot>resources/media/screen3.png</screenshot>
+			<screenshot>resources/media/screen2.jpg</screenshot>
+			<screenshot>resources/media/screen3.jpg</screenshot>
 		</assets>
   </extension>
 </addon>
