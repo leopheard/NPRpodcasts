@@ -65,7 +65,7 @@ def get_soup9(URL9): #MORNING
     return soup9
 get_soup9("http://npr.pyther.net/podcast/morning-edition")
 
-def get_soup3(URL10): #ALLTHINGS
+def get_soup10(URL10): #ALLTHINGS
     page = requests.get(URL10)
     soup10 = BeautifulSoup(page.text, 'html.parser')
     print "type: ", type(soup10)
@@ -122,7 +122,7 @@ def get_soup17(URL17): #UPFIRST
 get_soup17("https://www.npr.org/rss/podcast.php?id=510318")
 
 def get_soup18(URL18): #ONEA
-    page = requests.get(URL3)
+    page = requests.get(URL18)
     soup18 = BeautifulSoup(page.text, 'html.parser')
     print "type: ", type(soup18)
     return soup18
@@ -133,7 +133,7 @@ def get_soup19(URL19): #NPRNEWS
     soup19 = BeautifulSoup(page.text, 'html.parser')
     print "type: ", type(soup19)
     return soup19
-get_soup3("https://www.npr.org/rss/podcast.php?id=500005")
+get_soup19("https://www.npr.org/rss/podcast.php?id=500005")
 
 def get_soup20(URL20): #BELIEVED
     page = requests.get(URL20)

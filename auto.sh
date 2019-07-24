@@ -2,7 +2,7 @@ git init
 
 git add .
 
-git commit -m "logos - link corrects - extra podcasts"
+git commit -m "uploads"
 
 git push -u origin master
 
