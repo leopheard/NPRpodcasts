@@ -66,6 +66,9 @@ URL38 = "https://www.npr.org/rss/podcast.php?id=510026" #Fromthetop #30038
 URL39 = "https://www.npr.org/rss/podcast.php?id=510253" #LiveInConcertAllSongsCons #30039
 
 URL40 = "https://www.npr.org/rss/podcast.php?id=510347" #BeAPowerful #30040
+URL41 = "http://feeds.feedburner.com/TheFrontlineDispatch" #PBSFrontline #30041
+URL42 = "https://feeds.wgbh.org/106/feed-rss.xml" #Innovationhub #30042
+URL43 = "https://f.prxu.org/156/feed-rss.xml" #GROUNDTRUTHPROJ
 
 @plugin.route('/')
 def main_menu():
@@ -237,6 +240,19 @@ def main_menu():
             'label': plugin.get_string(30040),#BEPOWERFUL
             'path': plugin.url_for('all_episodes40'),
             'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/be.png"},
+        {
+            'label': plugin.get_string(30041),#PBSFRONTLINE
+            'path': plugin.url_for('all_episodes41'),
+            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/PBS.png"},
+        {
+            'label': plugin.get_string(30042),#INNOVATIONHUB
+            'path': plugin.url_for('all_episodes42'),
+            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/innovation.jpeg"},
+        {
+            'label': plugin.get_string(30043),#GROUNDTRUTHPROJ
+            'path': plugin.url_for('all_episodes43'),
+            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/groundtruth.png"},
+
     ]
 
     return items
@@ -490,6 +506,24 @@ def  all_episodes40():
     soup40 = mainaddon.get_soup40(URL40)
     playable_podcast40 = mainaddon.get_playable_podcast40(soup40)
     items = mainaddon.compile_playable_podcast40(playable_podcast40)
+    return items
+@plugin.route('/ all_episodes41/')
+def  all_episodes41():
+    soup41 = mainaddon.get_soup41(URL41)
+    playable_podcast41 = mainaddon.get_playable_podcast41(soup41)
+    items = mainaddon.compile_playable_podcast41(playable_podcast41)
+    return items
+@plugin.route('/ all_episodes42/')
+def  all_episodes42():
+    soup42 = mainaddon.get_soup42(URL42)
+    playable_podcast42 = mainaddon.get_playable_podcast42(soup42)
+    items = mainaddon.compile_playable_podcast42(playable_podcast42)
+    return items
+@plugin.route('/ all_episodes43/')
+def  all_episodes42():
+    soup43 = mainaddon.get_soup43(URL43)
+    playable_podcast43 = mainaddon.get_playable_podcast43(soup43)
+    items = mainaddon.compile_playable_podcast43(playable_podcast43)
     return items
 
 if __name__ == '__main__':
