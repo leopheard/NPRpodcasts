@@ -251,12 +251,10 @@ def main_menu():
         {
             'label': plugin.get_string(30043),#GROUNDTRUTHPROJ
             'path': plugin.url_for('all_episodes43'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/groundtruth.png"},
-
+            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/ground.jpg"},
     ]
 
     return items
-
 
 #@plugin.route('/all_music/')
 #def all_music():
@@ -288,13 +286,13 @@ def all_episodes3():
 @plugin.route('/all_episodes4/')
 def all_episodes4():
     soup4 = mainaddon.get_soup4(URL4)   
-    playable_podcast4 = mainaddon.get_playable_podcast1(soup4)
+    playable_podcast4 = mainaddon.get_playable_podcast4(soup4)
     items = mainaddon.compile_playable_podcast4(playable_podcast4)
     return items
 @plugin.route('/all_episodes5/')
 def all_episodes5():
     soup5 = mainaddon.get_soup5(URL5)
-    playable_podcast5 = mainaddon.get_playable_podcast1(soup5)
+    playable_podcast5 = mainaddon.get_playable_podcast5(soup5)
     items = mainaddon.compile_playable_podcast5(playable_podcast5)
     return items
 @plugin.route('/all_episodes6/')
@@ -306,7 +304,7 @@ def all_episodes6():
 @plugin.route('/all_episodes7/')
 def all_episodes7():
     soup7 = mainaddon.get_soup7(URL7)
-    playable_podcast1 = mainaddon.get_playable_podcast7(soup7) 
+    playable_podcast7 = mainaddon.get_playable_podcast7(soup7) 
     items = mainaddon.compile_playable_podcast7(playable_podcast7)
     return items
 @plugin.route('/all_episodes8/')
@@ -318,13 +316,13 @@ def all_episodes8():
 @plugin.route('/all_episodes9/')
 def all_episodes9():
     soup9 = mainaddon.get_soup9(URL9)
-    playable_podcast9 = mainaddon.get_playable_podcast1(soup9)
+    playable_podcast9 = mainaddon.get_playable_podcast9(soup9)
     items = mainaddon.compile_playable_podcast9(playable_podcast9)
     return items
 @plugin.route('/all_episodes10/')
 def all_episodes10():
     soup10 = mainaddon.get_soup10(URL10)
-    playable_podcast1 = mainaddon.get_playable_podcast1(soup10)
+    playable_podcast10 = mainaddon.get_playable_podcast10(soup10)
     items = mainaddon.compile_playable_podcast10(playable_podcast10)
     return items
 @plugin.route('/all_episodes11/')

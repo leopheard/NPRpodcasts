@@ -100,7 +100,6 @@ def get_soup14(URL14): #ONPOINT
     return soup14
 get_soup14("https://www.npr.org/rss/podcast.php?id=510053")
 
-
 def get_soup15(URL15): #INDICATORPLANETMONEY
     page = requests.get(URL15)
     soup15 = BeautifulSoup(page.text, 'html.parser')
@@ -609,7 +608,7 @@ def get_playable_podcast11(soup11):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "https://media.npr.org/assets/img/2018/08/03/npr_hiddenbrain_podcasttile_sq-270ab642de6948802f485c6ad1f087239ef6e324-s200-c85.jpg"
+                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/resources/media/weekendsat.png"
         }
         subjects.append(item) 
     return subjects
@@ -638,7 +637,7 @@ def get_playable_podcast12(soup12):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "https://media.npr.org/assets/img/2018/08/03/npr_hiddenbrain_podcasttile_sq-270ab642de6948802f485c6ad1f087239ef6e324-s200-c85.jpg"
+                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/resources/media/weekendsun.png"
         }
         subjects.append(item) 
     return subjects
@@ -667,7 +666,7 @@ def get_playable_podcast13(soup13):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "https://media.npr.org/assets/img/2018/08/03/npr_hiddenbrain_podcasttile_sq-270ab642de6948802f485c6ad1f087239ef6e324-s200-c85.jpg"
+                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/resources/media/herenow.jpg"
         }
         subjects.append(item) 
     return subjectS
@@ -696,7 +695,7 @@ def get_playable_podcast14(soup14):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "https://media.npr.org/assets/img/2018/08/03/npr_hiddenbrain_podcasttile_sq-270ab642de6948802f485c6ad1f087239ef6e324-s200-c85.jpg"
+                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/resources/media/onpoint.jpg"
         }
         subjects.append(item) 
     return subjects
@@ -726,7 +725,7 @@ def get_playable_podcast15(soup15):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "https://media.npr.org/assets/img/2018/08/03/npr_hiddenbrain_podcasttile_sq-270ab642de6948802f485c6ad1f087239ef6e324-s200-c85.jpg"
+                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/resources/media/indicatorplanet.jpg"
         }
         subjects.append(item) 
     return subjects
@@ -755,7 +754,7 @@ def get_playable_podcast16(soup16):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "https://media.npr.org/assets/img/2018/08/03/npr_hiddenbrain_podcasttile_sq-270ab642de6948802f485c6ad1f087239ef6e324-s200-c85.jpg"
+                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/resources/media/fresh.jpg"
         }
         subjects.append(item) 
     return subjects
@@ -784,7 +783,7 @@ def get_playable_podcast17(soup17):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "https://media.npr.org/assets/img/2018/08/03/npr_hiddenbrain_podcasttile_sq-270ab642de6948802f485c6ad1f087239ef6e324-s200-c85.jpg"
+                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/resources/media/upfirst.jpg"
         }
         subjects.append(item) 
     return subjects
@@ -813,7 +812,7 @@ def get_playable_podcast18(soup18):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "https://media.npr.org/assets/img/2018/08/03/npr_hiddenbrain_podcasttile_sq-270ab642de6948802f485c6ad1f087239ef6e324-s200-c85.jpg"
+                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/resources/media/onea.jpg"
         }
         subjects.append(item) 
     return subjects
@@ -842,7 +841,7 @@ def get_playable_podcast19(soup19):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "https://media.npr.org/assets/img/2018/08/03/npr_hiddenbrain_podcasttile_sq-270ab642de6948802f485c6ad1f087239ef6e324-s200-c85.jpg"
+                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/resources/media/NPRnewsnow.jpg"
         }
         subjects.append(item) 
     return subjects
@@ -857,445 +856,729 @@ def compile_playable_podcast19(playable_podcast19):
     })
     return items
 
-def get_playable_podcast3(soup3):
+def get_playable_podcast20(soup20):
     subjects = []
-    for content in soup3.find_all('item'):
+    for content in soup20.find_all('item'):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
             print "\n\nLink: ", link
             title = content.find('title')
             title = title.get_text()
-#            desc = content.find('description')
-#            desc = desc.get_text()
         except AttributeError:
             continue
         item = {
                 'url': link,
                 'title': title,
-#                'desc': desc,
-                'thumbnail': "https://media.npr.org/assets/img/2018/08/03/npr_hiddenbrain_podcasttile_sq-270ab642de6948802f485c6ad1f087239ef6e324-s200-c85.jpg"
+                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/resources/media/believed.jpg"
         }
         subjects.append(item) 
 
     return subjects
-
-
-def compile_playable_podcast3(playable_podcast3):
+def compile_playable_podcast20(playable_podcast20):
     items = []
     for podcast in playable_podcast3:
         items.append({
             'label': podcast['title'],
             'thumbnail': podcast['thumbnail'],
             'path': podcast['url'],
-#            'info': podcast['desc'],
             'is_playable': True,
     })
     return items
 
-
-def get_playable_podcast3(soup3):
+def get_playable_podcast21(soup21):
     subjects = []
-    for content in soup3.find_all('item'):
+    for content in soup21.find_all('item'):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
             print "\n\nLink: ", link
             title = content.find('title')
             title = title.get_text()
-#            desc = content.find('description')
-#            desc = desc.get_text()
         except AttributeError:
             continue
         item = {
                 'url': link,
                 'title': title,
-#                'desc': desc,
-                'thumbnail': "https://media.npr.org/assets/img/2018/08/03/npr_hiddenbrain_podcasttile_sq-270ab642de6948802f485c6ad1f087239ef6e324-s200-c85.jpg"
+                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/resources/media/codesw.jpg"
         }
         subjects.append(item) 
-
     return subjects
-
-
-def compile_playable_podcast3(playable_podcast3):
+def compile_playable_podcast21(playable_podcast21):
     items = []
-    for podcast in playable_podcast3:
+    for podcast in playable_podcast21:
         items.append({
             'label': podcast['title'],
             'thumbnail': podcast['thumbnail'],
             'path': podcast['url'],
-#            'info': podcast['desc'],
             'is_playable': True,
     })
     return items
 
-
-def get_playable_podcast3(soup3):
+def get_playable_podcast22(soup22):
     subjects = []
-    for content in soup3.find_all('item'):
+    for content in soup22.find_all('item'):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
             print "\n\nLink: ", link
             title = content.find('title')
             title = title.get_text()
-#            desc = content.find('description')
-#            desc = desc.get_text()
         except AttributeError:
             continue
         item = {
                 'url': link,
                 'title': title,
-#                'desc': desc,
-                'thumbnail': "https://media.npr.org/assets/img/2018/08/03/npr_hiddenbrain_podcasttile_sq-270ab642de6948802f485c6ad1f087239ef6e324-s200-c85.jpg"
+                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/resources/media/embedded.jpg"
         }
         subjects.append(item) 
-
     return subjects
-
-
-def compile_playable_podcast3(playable_podcast3):
+def compile_playable_podcast22(playable_podcast22):
     items = []
-    for podcast in playable_podcast3:
+    for podcast in playable_podcast22:
         items.append({
             'label': podcast['title'],
             'thumbnail': podcast['thumbnail'],
             'path': podcast['url'],
-#            'info': podcast['desc'],
             'is_playable': True,
     })
     return items
 
-
-def get_playable_podcast3(soup3):
+def get_playable_podcast23(soup23):
     subjects = []
-    for content in soup3.find_all('item'):
+    for content in soup23.find_all('item'):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
             print "\n\nLink: ", link
             title = content.find('title')
             title = title.get_text()
-#            desc = content.find('description')
-#            desc = desc.get_text()
         except AttributeError:
             continue
         item = {
                 'url': link,
                 'title': title,
-#                'desc': desc,
-                'thumbnail': "https://media.npr.org/assets/img/2018/08/03/npr_hiddenbrain_podcasttile_sq-270ab642de6948802f485c6ad1f087239ef6e324-s200-c85.jpg"
+                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/resources/media/itsbeen.jpg"
         }
         subjects.append(item) 
-
     return subjects
-
-
-def compile_playable_podcast3(playable_podcast3):
+def compile_playable_podcast23(playable_podcast23):
     items = []
-    for podcast in playable_podcast3:
+    for podcast in playable_podcast23:
         items.append({
             'label': podcast['title'],
             'thumbnail': podcast['thumbnail'],
             'path': podcast['url'],
-#            'info': podcast['desc'],
             'is_playable': True,
     })
     return items
 
-
-def get_playable_podcast3(soup3):
+def get_playable_podcast24(soup24):
     subjects = []
-    for content in soup3.find_all('item'):
+    for content in soup24.find_all('item'):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
             print "\n\nLink: ", link
             title = content.find('title')
             title = title.get_text()
-#            desc = content.find('description')
-#            desc = desc.get_text()
         except AttributeError:
             continue
         item = {
                 'url': link,
                 'title': title,
-#                'desc': desc,
-                'thumbnail': "https://media.npr.org/assets/img/2018/08/03/npr_hiddenbrain_podcasttile_sq-270ab642de6948802f485c6ad1f087239ef6e324-s200-c85.jpg"
+                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/resources/media/latinoisa.jpg"
         }
         subjects.append(item) 
-
     return subjects
-
-
-def compile_playable_podcast3(playable_podcast3):
+def compile_playable_podcast24(playable_podcast24):
     items = []
-    for podcast in playable_podcast3:
+    for podcast in playable_podcast24:
         items.append({
             'label': podcast['title'],
             'thumbnail': podcast['thumbnail'],
             'path': podcast['url'],
-#            'info': podcast['desc'],
             'is_playable': True,
     })
     return items
 
-
-def get_playable_podcast3(soup3):
+def get_playable_podcast25(soup25):
     subjects = []
-    for content in soup3.find_all('item'):
+    for content in soup25.find_all('item'):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
             print "\n\nLink: ", link
             title = content.find('title')
             title = title.get_text()
-#            desc = content.find('description')
-#            desc = desc.get_text()
         except AttributeError:
             continue
         item = {
                 'url': link,
                 'title': title,
-#                'desc': desc,
-                'thumbnail': "https://media.npr.org/assets/img/2018/08/03/npr_hiddenbrain_podcasttile_sq-270ab642de6948802f485c6ad1f087239ef6e324-s200-c85.jpg"
+                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/resources/media/NPRpolitics.jpg"
         }
         subjects.append(item) 
-
     return subjects
-
-
-def compile_playable_podcast3(playable_podcast3):
+def compile_playable_podcast25(playable_podcast25):
     items = []
-    for podcast in playable_podcast3:
+    for podcast in playable_podcast25:
         items.append({
             'label': podcast['title'],
             'thumbnail': podcast['thumbnail'],
             'path': podcast['url'],
-#            'info': podcast['desc'],
             'is_playable': True,
     })
     return items
 
-
-def get_playable_podcast3(soup3):
+def get_playable_podcast26(soup26):
     subjects = []
-    for content in soup3.find_all('item'):
+    for content in soup26.find_all('item'):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
             print "\n\nLink: ", link
             title = content.find('title')
             title = title.get_text()
-#            desc = content.find('description')
-#            desc = desc.get_text()
         except AttributeError:
             continue
         item = {
                 'url': link,
                 'title': title,
-#                'desc': desc,
-                'thumbnail': "https://media.npr.org/assets/img/2018/08/03/npr_hiddenbrain_podcasttile_sq-270ab642de6948802f485c6ad1f087239ef6e324-s200-c85.jpg"
+                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/resources/media/through.jpg"
         }
         subjects.append(item) 
-
     return subjects
-
-
-def compile_playable_podcast3(playable_podcast3):
+def compile_playable_podcast26(playable_podcast26):
     items = []
-    for podcast in playable_podcast3:
+    for podcast in playable_podcast26:
         items.append({
             'label': podcast['title'],
             'thumbnail': podcast['thumbnail'],
             'path': podcast['url'],
-#            'info': podcast['desc'],
             'is_playable': True,
     })
     return items
 
-
-def get_playable_podcast3(soup3):
+def get_playable_podcast27(soup27):
     subjects = []
-    for content in soup3.find_all('item'):
+    for content in soup27.find_all('item'):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
             print "\n\nLink: ", link
             title = content.find('title')
             title = title.get_text()
-#            desc = content.find('description')
-#            desc = desc.get_text()
         except AttributeError:
             continue
         item = {
                 'url': link,
                 'title': title,
-#                'desc': desc,
-                'thumbnail': "https://media.npr.org/assets/img/2018/08/03/npr_hiddenbrain_podcasttile_sq-270ab642de6948802f485c6ad1f087239ef6e324-s200-c85.jpg"
+                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/resources/media/whatsgood.jpg"
         }
         subjects.append(item) 
-
     return subjects
-
-
-def compile_playable_podcast3(playable_podcast3):
+def compile_playable_podcast27(playable_podcast27):
     items = []
-    for podcast in playable_podcast3:
+    for podcast in playable_podcast27:
         items.append({
             'label': podcast['title'],
             'thumbnail': podcast['thumbnail'],
             'path': podcast['url'],
-#            'info': podcast['desc'],
             'is_playable': True,
     })
     return items
 
-
-def get_playable_podcast3(soup3):
+def get_playable_podcast28(soup28):
     subjects = []
-    for content in soup3.find_all('item'):
+    for content in soup28.find_all('item'):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
             print "\n\nLink: ", link
             title = content.find('title')
             title = title.get_text()
-#            desc = content.find('description')
-#            desc = desc.get_text()
         except AttributeError:
             continue
         item = {
                 'url': link,
                 'title': title,
-#                'desc': desc,
-                'thumbnail': "https://media.npr.org/assets/img/2018/08/03/npr_hiddenbrain_podcasttile_sq-270ab642de6948802f485c6ad1f087239ef6e324-s200-c85.jpg"
+                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/resources/media/yrmedia.jpg"
         }
         subjects.append(item) 
-
     return subjects
-
-
-def compile_playable_podcast3(playable_podcast3):
+def compile_playable_podcast28(playable_podcast28):
     items = []
-    for podcast in playable_podcast3:
+    for podcast in playable_podcast28:
         items.append({
             'label': podcast['title'],
             'thumbnail': podcast['thumbnail'],
             'path': podcast['url'],
-#            'info': podcast['desc'],
             'is_playable': True,
     })
     return items
 
-
-def get_playable_podcast3(soup3):
+def get_playable_podcast29(soup29):
     subjects = []
-    for content in soup3.find_all('item'):
+    for content in soup29.find_all('item'):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
             print "\n\nLink: ", link
             title = content.find('title')
             title = title.get_text()
-#            desc = content.find('description')
-#            desc = desc.get_text()
         except AttributeError:
             continue
         item = {
                 'url': link,
                 'title': title,
-#                'desc': desc,
-                'thumbnail': "https://media.npr.org/assets/img/2018/08/03/npr_hiddenbrain_podcasttile_sq-270ab642de6948802f485c6ad1f087239ef6e324-s200-c85.jpg"
+                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/resources/media/car.jpg"
         }
         subjects.append(item) 
-
     return subjects
-
-
-def compile_playable_podcast3(playable_podcast3):
+def compile_playable_podcast29(playable_podcast29):
     items = []
-    for podcast in playable_podcast3:
+    for podcast in playable_podcast29:
         items.append({
             'label': podcast['title'],
             'thumbnail': podcast['thumbnail'],
             'path': podcast['url'],
-#            'info': podcast['desc'],
             'is_playable': True,
     })
     return items
 
-
-def get_playable_podcast3(soup3):
+def get_playable_podcast30(soup30):
     subjects = []
-    for content in soup3.find_all('item'):
+    for content in soup30.find_all('item'):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
             print "\n\nLink: ", link
             title = content.find('title')
             title = title.get_text()
-#            desc = content.find('description')
-#            desc = desc.get_text()
         except AttributeError:
             continue
         item = {
                 'url': link,
                 'title': title,
-#                'desc': desc,
-                'thumbnail': "https://media.npr.org/assets/img/2018/08/03/npr_hiddenbrain_podcasttile_sq-270ab642de6948802f485c6ad1f087239ef6e324-s200-c85.jpg"
+                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/resources/media/bullseye.jpg"
         }
         subjects.append(item) 
-
     return subjects
-
-
-def compile_playable_podcast3(playable_podcast3):
+def compile_playable_podcast30(playable_podcast30):
     items = []
-    for podcast in playable_podcast3:
+    for podcast in playable_podcast30:
         items.append({
             'label': podcast['title'],
             'thumbnail': podcast['thumbnail'],
             'path': podcast['url'],
-#            'info': podcast['desc'],
             'is_playable': True,
     })
     return items
 
-
-def get_playable_podcast3(soup3):
+def get_playable_podcast31(soup31):
     subjects = []
-    for content in soup3.find_all('item'):
+    for content in soup31.find_all('item'):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
             print "\n\nLink: ", link
             title = content.find('title')
             title = title.get_text()
-#            desc = content.find('description')
-#            desc = desc.get_text()
         except AttributeError:
             continue
         item = {
                 'url': link,
                 'title': title,
-#                'desc': desc,
-                'thumbnail': "https://media.npr.org/assets/img/2018/08/03/npr_hiddenbrain_podcasttile_sq-270ab642de6948802f485c6ad1f087239ef6e324-s200-c85.jpg"
+                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/resources/media/invisiblia.jpg"
         }
         subjects.append(item) 
-
     return subjects
-
-
-def compile_playable_podcast3(playable_podcast3):
+def compile_playable_podcast31(playable_podcast31):
     items = []
-    for podcast in playable_podcast3:
+    for podcast in playable_podcast31:
         items.append({
             'label': podcast['title'],
             'thumbnail': podcast['thumbnail'],
             'path': podcast['url'],
-#            'info': podcast['desc'],
             'is_playable': True,
     })
     return items
+
+def get_playable_podcast32(soup32):
+    subjects = []
+    for content in soup32.find_all('item'):
+        try:        
+            link = content.find('enclosure')
+            link = link.get('url')
+            print "\n\nLink: ", link
+            title = content.find('title')
+            title = title.get_text()
+        except AttributeError:
+            continue
+        item = {
+                'url': link,
+                'title': title,
+                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/resources/media/only.jpg"
+        }
+        subjects.append(item) 
+    return subjects
+def compile_playable_podcast32(playable_podcast32):
+    items = []
+    for podcast in playable_podcast32:
+        items.append({
+            'label': podcast['title'],
+            'thumbnail': podcast['thumbnail'],
+            'path': podcast['url'],
+            'is_playable': True,
+    })
+    return items
+
+def get_playable_podcast33(soup33):
+    subjects = []
+    for content in soup33.find_all('item'):
+        try:        
+            link = content.find('enclosure')
+            link = link.get('url')
+            print "\n\nLink: ", link
+            title = content.find('title')
+            title = title.get_text()
+        except AttributeError:
+            continue
+        item = {
+                'url': link,
+                'title': title,
+                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/resources/media/wow.jpg"
+        }
+        subjects.append(item) 
+    return subjects
+def compile_playable_podcast33(playable_podcast33):
+    items = []
+    for podcast in playable_podcast33:
+        items.append({
+            'label': podcast['title'],
+            'thumbnail': podcast['thumbnail'],
+            'path': podcast['url'],
+            'is_playable': True,
+    })
+    return items
+
+def get_playable_podcast34(soup34):
+    subjects = []
+    for content in soup34.find_all('item'):
+        try:        
+            link = content.find('enclosure')
+            link = link.get('url')
+            print "\n\nLink: ", link
+            title = content.find('title')
+            title = title.get_text()
+        except AttributeError:
+            continue
+        item = {
+                'url': link,
+                'title': title,
+                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/resources/media/allsongs.jpg"
+        }
+        subjects.append(item) 
+    return subjects
+def compile_playable_podcast34(playable_podcast34):
+    items = []
+    for podcast in playable_podcast34:
+        items.append({
+            'label': podcast['title'],
+            'thumbnail': podcast['thumbnail'],
+            'path': podcast['url'],
+            'is_playable': True,
+    })
+    return items
+
+def get_playable_podcast35(soup35):
+    subjects = []
+    for content in soup35.find_all('item'):
+        try:        
+            link = content.find('enclosure')
+            link = link.get('url')
+            print "\n\nLink: ", link
+            title = content.find('title')
+            title = title.get_text()
+        except AttributeError:
+            continue
+        item = {
+                'url': link,
+                'title': title,
+                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/resources/media/tiny.jpg"
+        }
+        subjects.append(item) 
+    return subjects
+def compile_playable_podcast35(playable_podcast35):
+    items = []
+    for podcast in playable_podcast35:
+        items.append({
+            'label': podcast['title'],
+            'thumbnail': podcast['thumbnail'],
+            'path': podcast['url'],
+            'is_playable': True,
+    })
+    return items
+
+def get_playable_podcast36(soup36):
+    subjects = []
+    for content in soup36.find_all('item'):
+        try:        
+            link = content.find('enclosure')
+            link = link.get('url')
+            print "\n\nLink: ", link
+            title = content.find('title')
+            title = title.get_text()
+        except AttributeError:
+            continue
+        item = {
+                'url': link,
+                'title': title,
+                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/resources/media/altlatino.jpg"
+        }
+        subjects.append(item) 
+    return subjects
+def compile_playable_podcast36(playable_podcast36):
+    items = []
+    for podcast in playable_podcast31:
+        items.append({
+            'label': podcast['title'],
+            'thumbnail': podcast['thumbnail'],
+            'path': podcast['url'],
+            'is_playable': True,
+    })
+    return items
+
+def get_playable_podcast37(soup37):
+    subjects = []
+    for content in soup37.find_all('item'):
+        try:        
+            link = content.find('enclosure')
+            link = link.get('url')
+            print "\n\nLink: ", link
+            title = content.find('title')
+            title = title.get_text()
+        except AttributeError:
+            continue
+        item = {
+                'url': link,
+                'title': title,
+                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/resources/media/mountain.jpg"
+        }
+        subjects.append(item) 
+    return subjects
+def compile_playable_podcast37(playable_podcast37):
+    items = []
+    for podcast in playable_podcast37:
+        items.append({
+            'label': podcast['title'],
+            'thumbnail': podcast['thumbnail'],
+            'path': podcast['url'],
+            'is_playable': True,
+    })
+    return items
+
+def get_playable_podcast38(soup38):
+    subjects = []
+    for content in soup38.find_all('item'):
+        try:        
+            link = content.find('enclosure')
+            link = link.get('url')
+            print "\n\nLink: ", link
+            title = content.find('title')
+            title = title.get_text()
+        except AttributeError:
+            continue
+        item = {
+                'url': link,
+                'title': title,
+                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/resources/media/from.jpg"
+        }
+        subjects.append(item) 
+    return subjects
+def compile_playable_podcast38(playable_podcast38):
+    items = []
+    for podcast in playable_podcast38:
+        items.append({
+            'label': podcast['title'],
+            'thumbnail': podcast['thumbnail'],
+            'path': podcast['url'],
+            'is_playable': True,
+    })
+    return items
+
+def get_playable_podcast39(soup39):
+    subjects = []
+    for content in soup39.find_all('item'):
+        try:        
+            link = content.find('enclosure')
+            link = link.get('url')
+            print "\n\nLink: ", link
+            title = content.find('title')
+            title = title.get_text()
+        except AttributeError:
+            continue
+        item = {
+                'url': link,
+                'title': title,
+                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/resources/media/live.jpg"
+        }
+        subjects.append(item) 
+    return subjects
+def compile_playable_podcast39(playable_podcast39):
+    items = []
+    for podcast in playable_podcast39:
+        items.append({
+            'label': podcast['title'],
+            'thumbnail': podcast['thumbnail'],
+            'path': podcast['url'],
+            'is_playable': True,
+    })
+    return items
+
+def get_playable_podcast40(soup40):
+    subjects = []
+    for content in soup40.find_all('item'):
+        try:        
+            link = content.find('enclosure')
+            link = link.get('url')
+            print "\n\nLink: ", link
+            title = content.find('title')
+            title = title.get_text()
+        except AttributeError:
+            continue
+        item = {
+                'url': link,
+                'title': title,
+                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/resources/media/be.png"
+        }
+        subjects.append(item) 
+    return subjects
+def compile_playable_podcast40(playable_podcast40):
+    items = []
+    for podcast in playable_podcast40:
+        items.append({
+            'label': podcast['title'],
+            'thumbnail': podcast['thumbnail'],
+            'path': podcast['url'],
+            'is_playable': True,
+    })
+    return items
+
+def get_playable_podcast41(soup41):
+    subjects = []
+    for content in soup41.find_all('item'):
+        try:        
+            link = content.find('enclosure')
+            link = link.get('url')
+            print "\n\nLink: ", link
+            title = content.find('title')
+            title = title.get_text()
+        except AttributeError:
+            continue
+        item = {
+                'url': link,
+                'title': title,
+                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/resources/media/PBS.png"
+        }
+        subjects.append(item) 
+    return subjects
+def compile_playable_podcast41(playable_podcast41):
+    items = []
+    for podcast in playable_podcast41:
+        items.append({
+            'label': podcast['title'],
+            'thumbnail': podcast['thumbnail'],
+            'path': podcast['url'],
+            'is_playable': True,
+    })
+    return items
+
+def get_playable_podcast42(soup42):
+    subjects = []
+    for content in soup42.find_all('item'):
+        try:        
+            link = content.find('enclosure')
+            link = link.get('url')
+            print "\n\nLink: ", link
+            title = content.find('title')
+            title = title.get_text()
+        except AttributeError:
+            continue
+        item = {
+                'url': link,
+                'title': title,
+                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/resources/media/innovation.jpeg"
+        }
+        subjects.append(item) 
+    return subjects
+def compile_playable_podcast42(playable_podcast42):
+    items = []
+    for podcast in playable_podcast42:
+        items.append({
+            'label': podcast['title'],
+            'thumbnail': podcast['thumbnail'],
+            'path': podcast['url'],
+            'is_playable': True,
+    })
+    return items
+
+def get_playable_podcast43(soup43):
+    subjects = []
+    for content in soup43.find_all('item'):
+        try:        
+            link = content.find('enclosure')
+            link = link.get('url')
+            print "\n\nLink: ", link
+            title = content.find('title')
+            title = title.get_text()
+        except AttributeError:
+            continue
+        item = {
+                'url': link,
+                'title': title,
+                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/resources/media/ground.jpg"
+        }
+        subjects.append(item) 
+    return subjects
+def compile_playable_podcast43(playable_podcast43):
+    items = []
+    for podcast in playable_podcast43:
+        items.append({
+            'label': podcast['title'],
+            'thumbnail': podcast['thumbnail'],
+            'path': podcast['url'],
+            'is_playable': True,
+    })
+    return items
+
+def get_playable_podcast44(soup44):
+    subjects = []
+    for content in soup44.find_all('item'):
+        try:        
+            link = content.find('enclosure')
+            link = link.get('url')
+            print "\n\nLink: ", link
+            title = content.find('title')
+            title = title.get_text()
+        except AttributeError:
+            continue
+        item = {
+                'url': link,
+                'title': title,
+                'thumbnail': ""
+        }
+        subjects.append(item) 
+    return subjects
+def compile_playable_podcast44(playable_podcast44):
+    items = []
+    for podcast in playable_podcast44:
+        items.append({
+            'label': podcast['title'],
+            'thumbnail': podcast['thumbnail'],
+            'path': podcast['url'],
+            'is_playable': True,
+    })
+    return items
+
