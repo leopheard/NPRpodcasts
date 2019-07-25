@@ -518,7 +518,7 @@ def  all_episodes42():
     items = mainaddon.compile_playable_podcast42(playable_podcast42)
     return items
 @plugin.route('/all_episodes43/')
-def  all_episodes42():
+def  all_episodes43():
     soup43 = mainaddon.get_soup43(URL43)
     playable_podcast43 = mainaddon.get_playable_podcast43(soup43)
     items = mainaddon.compile_playable_podcast43(playable_podcast43)
