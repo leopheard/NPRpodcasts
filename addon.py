@@ -83,7 +83,7 @@ def main_menu():
         {
             'label': plugin.get_string(30001),#WAIT
             'path': plugin.url_for('all_episodes1'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/resources/media/wait.jpg"},
+            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/wait.jpg"},
         {
             'label': plugin.get_string(30002),#HOW
             'path': plugin.url_for('all_episodes2'),
