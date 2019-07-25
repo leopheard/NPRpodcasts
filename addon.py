@@ -231,7 +231,7 @@ def main_menu():
         {
             'label': plugin.get_string(30038),#FROMTHETOP
             'path': plugin.url_for('all_episodes38'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/from.jpg"},
+            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/from.jpeg"},
         {
             'label': plugin.get_string(30039),#LIVEINCONCERTALLSONGSCONS
             'path': plugin.url_for('all_episodes39'),
