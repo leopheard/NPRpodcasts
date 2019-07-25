@@ -183,7 +183,7 @@ def main_menu():
         {
             'label': plugin.get_string(30026),#THROUGHLINE
             'path': plugin.url_for('all_episodes26'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/through.jpg"},
+            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/through.png"},
         {
             'label': plugin.get_string(30027),#WHATSGOODWITH
             'path': plugin.url_for('all_episodes27'),
@@ -191,7 +191,7 @@ def main_menu():
         {
             'label': plugin.get_string(30028),#YRMEDIA
             'path': plugin.url_for('all_episodes28'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/yrmedia.jpg"},
+            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/YRmedia.png"},
         {
             'label': plugin.get_string(30029),#BESTOFCARTALK
             'path': plugin.url_for('all_episodes29'),
