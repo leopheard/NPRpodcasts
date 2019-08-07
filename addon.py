@@ -68,7 +68,10 @@ URL39 = "https://www.npr.org/rss/podcast.php?id=510253" #LiveInConcertAllSongsCo
 URL40 = "https://www.npr.org/rss/podcast.php?id=510347" #BeAPowerful #30040
 URL41 = "http://feeds.feedburner.com/TheFrontlineDispatch" #PBSFrontline #30041
 URL42 = "https://feeds.wgbh.org/106/feed-rss.xml" #Innovationhub #30042
-URL43 = "https://f.prxu.org/156/feed-rss.xml" #GROUNDTRUTHPROJ
+URL43 = "https://f.prxu.org/156/feed-rss.xml" #GROUNDTRUTHPROJ #30043
+
+URL44 = "http://npr.org/rss/podcast.php?id=510314" #BIGLISTEN #30044
+URL45 = "https://www.npr.org/rss/podcast.php?id=510338" #LIFEKIT #30045
 
 @plugin.route('/')
 def main_menu():
@@ -252,8 +255,16 @@ def main_menu():
             'label': plugin.get_string(30043),#GROUNDTRUTHPROJ
             'path': plugin.url_for('all_episodes43'),
             'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/ground.jpg"},
-    ]
+        {
+            'label': plugin.get_string(30044),#BIGLISTEN
+            'path': plugin.url_for('all_episodes44'),
+            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/big.png"},
+        {
+            'label': plugin.get_string(30045),#LIFEKITALLGUIDES
+            'path': plugin.url_for('all_episodes45'),
+            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/lifekitallguides.png"},
 
+    ]
     return items
 
 #@plugin.route('/all_music/')
@@ -522,6 +533,18 @@ def  all_episodes43():
     soup43 = mainaddon.get_soup43(URL43)
     playable_podcast43 = mainaddon.get_playable_podcast43(soup43)
     items = mainaddon.compile_playable_podcast43(playable_podcast43)
+    return items
+@plugin.route('/all_episodes44/')
+def  all_episodes44():
+    soup44 = mainaddon.get_soup44(URL44)
+    playable_podcast44 = mainaddon.get_playable_podcast44(soup44)
+    items = mainaddon.compile_playable_podcast44(playable_podcast44)
+    return items
+@plugin.route('/all_episodes45/')
+def  all_episodes45():
+    soup45 = mainaddon.get_soup45(URL45)
+    playable_podcast45 = mainaddon.get_playable_podcast45(soup45)
+    items = mainaddon.compile_playable_podcast45(playable_podcast45)
     return items
 
 if __name__ == '__main__':

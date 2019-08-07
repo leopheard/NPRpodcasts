@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.audio.NPRpodcasts" name="NPR Podcasts" version="1.1.0" provider-name="leopheard">
   <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="xbmc.python" version="2.26.0"/>
     <import addon="script.module.xbmcswift2" version="2.4.0"/>
     <import addon="script.module.beautifulsoup4" version="4.3.1"/>
     <import addon="script.module.requests" version="1.1.0"/>
@@ -14,7 +14,7 @@
     <platform>all</platform>
     <language></language>
     <summary lang="en">NPR Podcasts</summary>
-    <description lang="en">All the major podcasts from NPR</description>
+    <description lang="en">All the major podcasts from NPR, such as 'Wait, Wait Don't Tell Me!', 'Code Switch', 'Fresh Air', '1A', etc.</description>
     <license>The MIT License (MIT)</license>
     <forum></forum>
     <email>leopheard@gmail.com</email>

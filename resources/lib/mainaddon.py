@@ -303,6 +303,20 @@ def get_soup43(URL43): #GROUNDTRUTHPROJ
     return soup43
 get_soup43("https://f.prxu.org/156/feed-rss.xml")
 
+def get_soup44(URL44): #BIGLISTEN
+    page = requests.get(URL44)
+    soup44 = BeautifulSoup(page.text, 'html.parser')
+    print "type: ", type(soup44)
+    return soup44
+get_soup44("http://npr.org/rss/podcast.php?id=510314")
+
+def get_soup45(URL45): #LIFEKITALLGUIDES
+    page = requests.get(URL45)
+    soup45 = BeautifulSoup(page.text, 'html.parser')
+    print "type: ", type(soup45)
+    return soup45
+get_soup45("https://www.npr.org/rss/podcast.php?id=510338")
+
 
 def get_playable_podcast1(soup1):
     subjects = []
@@ -1567,7 +1581,7 @@ def get_playable_podcast44(soup44):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': ""
+                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/big.png"
         }
         subjects.append(item) 
     return subjects
@@ -1582,3 +1596,31 @@ def compile_playable_podcast44(playable_podcast44):
     })
     return items
 
+def get_playable_podcast45(soup45):
+    subjects = []
+    for content in soup44.find_all('item', limit=30):
+        try:        
+            link = content.find('enclosure')
+            link = link.get('url')
+            print "\n\nLink: ", link
+            title = content.find('title')
+            title = title.get_text()
+        except AttributeError:
+            continue
+        item = {
+                'url': link,
+                'title': title,
+                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/lifekitallguides.png"
+        }
+        subjects.append(item) 
+    return subjects
+def compile_playable_podcast45(playable_podcast45):
+    items = []
+    for podcast in playable_podcast45:
+        items.append({
+            'label': podcast['title'],
+            'thumbnail': podcast['thumbnail'],
+            'path': podcast['url'],
+            'is_playable': True,
+    })
+    return items
