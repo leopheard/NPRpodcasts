@@ -320,7 +320,7 @@ get_soup45("https://www.npr.org/rss/podcast.php?id=510338")
 
 def get_playable_podcast1(soup1):
     subjects = []
-    for content in soup1.find_all('item', limit=30):
+    for content in soup1.find_all('item', limit=70):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
@@ -349,7 +349,7 @@ def compile_playable_podcast1(playable_podcast1):
 
 def get_playable_podcast2(soup2):
     subjects = []
-    for content in soup2.find_all('item', limit=30):
+    for content in soup2.find_all('item', limit=70):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
@@ -378,7 +378,7 @@ def compile_playable_podcast2(playable_podcast2):
 
 def get_playable_podcast3(soup3):
     subjects = []
-    for content in soup3.find_all('item', limit=30):
+    for content in soup3.find_all('item', limit=70):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
@@ -407,7 +407,7 @@ def compile_playable_podcast3(playable_podcast3):
 
 def get_playable_podcast4(soup4):
     subjects = []
-    for content in soup4.find_all('item', limit=30):
+    for content in soup4.find_all('item', limit=70):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
@@ -436,7 +436,7 @@ def compile_playable_podcast4(playable_podcast4):
 
 def get_playable_podcast5(soup5):
     subjects = []
-    for content in soup5.find_all('item', limit=30):
+    for content in soup5.find_all('item', limit=70):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
@@ -465,7 +465,7 @@ def compile_playable_podcast5(playable_podcast5):
 
 def get_playable_podcast6(soup6):
     subjects = []
-    for content in soup6.find_all('item', limit=30):
+    for content in soup6.find_all('item', limit=70):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
@@ -494,7 +494,7 @@ def compile_playable_podcast6(playable_podcast6):
 
 def get_playable_podcast7(soup7):
     subjects = []
-    for content in soup7.find_all('item', limit=30):
+    for content in soup7.find_all('item', limit=70):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
@@ -523,7 +523,7 @@ def compile_playable_podcast7(playable_podcast7):
 
 def get_playable_podcast8(soup8):
     subjects = []
-    for content in soup8.find_all('item', limit=30):
+    for content in soup8.find_all('item', limit=70):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
@@ -552,7 +552,7 @@ def compile_playable_podcast8(playable_podcast8):
 
 def get_playable_podcast9(soup9):
     subjects = []
-    for content in soup9.find_all('item', limit=30):
+    for content in soup9.find_all('item', limit=70):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
@@ -581,7 +581,7 @@ def compile_playable_podcast9(playable_podcast9):
 
 def get_playable_podcast10(soup10):
     subjects = []
-    for content in soup10.find_all('item', limit=30):
+    for content in soup10.find_all('item', limit=70):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
@@ -610,7 +610,7 @@ def compile_playable_podcast10(playable_podcast10):
 
 def get_playable_podcast11(soup11):
     subjects = []
-    for content in soup11.find_all('item', limit=30):
+    for content in soup11.find_all('item', limit=70):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
@@ -639,7 +639,7 @@ def compile_playable_podcast11(playable_podcast11):
 
 def get_playable_podcast12(soup12):
     subjects = []
-    for content in soup12.find_all('item', limit=30):
+    for content in soup12.find_all('item', limit=70):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
@@ -668,7 +668,7 @@ def compile_playable_podcast12(playable_podcast12):
 
 def get_playable_podcast13(soup13):
     subjects = []
-    for content in soup13.find_all('item', limit=30):
+    for content in soup13.find_all('item', limit=70):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
@@ -697,7 +697,7 @@ def compile_playable_podcast13(playable_podcast13):
 
 def get_playable_podcast14(soup14):
     subjects = []
-    for content in soup14.find_all('item', limit=30):
+    for content in soup14.find_all('item', limit=70):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
@@ -727,7 +727,7 @@ def compile_playable_podcast14(playable_podcast14):
 
 def get_playable_podcast15(soup15):
     subjects = []
-    for content in soup15.find_all('item', limit=30):
+    for content in soup15.find_all('item', limit=70):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
@@ -756,7 +756,7 @@ def compile_playable_podcast15(playable_podcast15):
 
 def get_playable_podcast16(soup16):
     subjects = []
-    for content in soup16.find_all('item', limit=30):
+    for content in soup16.find_all('item', limit=70):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
@@ -785,7 +785,7 @@ def compile_playable_podcast16(playable_podcast16):
 
 def get_playable_podcast17(soup17):
     subjects = []
-    for content in soup17.find_all('item', limit=30):
+    for content in soup17.find_all('item', limit=70):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
@@ -814,7 +814,7 @@ def compile_playable_podcast17(playable_podcast17):
 
 def get_playable_podcast18(soup18):
     subjects = []
-    for content in soup18.find_all('item', limit=30):
+    for content in soup18.find_all('item', limit=70):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
@@ -843,7 +843,7 @@ def compile_playable_podcast18(playable_podcast18):
 
 def get_playable_podcast19(soup19):
     subjects = []
-    for content in soup19.find_all('item', limit=30):
+    for content in soup19.find_all('item', limit=70):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
@@ -872,7 +872,7 @@ def compile_playable_podcast19(playable_podcast19):
 
 def get_playable_podcast20(soup20):
     subjects = []
-    for content in soup20.find_all('item', limit=30):
+    for content in soup20.find_all('item', limit=70):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
@@ -902,7 +902,7 @@ def compile_playable_podcast20(playable_podcast20):
 
 def get_playable_podcast21(soup21):
     subjects = []
-    for content in soup21.find_all('item', limit=30):
+    for content in soup21.find_all('item', limit=70):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
@@ -931,7 +931,7 @@ def compile_playable_podcast21(playable_podcast21):
 
 def get_playable_podcast22(soup22):
     subjects = []
-    for content in soup22.find_all('item', limit=30):
+    for content in soup22.find_all('item', limit=70):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
@@ -960,7 +960,7 @@ def compile_playable_podcast22(playable_podcast22):
 
 def get_playable_podcast23(soup23):
     subjects = []
-    for content in soup23.find_all('item', limit=30):
+    for content in soup23.find_all('item', limit=70):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
@@ -989,7 +989,7 @@ def compile_playable_podcast23(playable_podcast23):
 
 def get_playable_podcast24(soup24):
     subjects = []
-    for content in soup24.find_all('item', limit=30):
+    for content in soup24.find_all('item', limit=70):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
@@ -1018,7 +1018,7 @@ def compile_playable_podcast24(playable_podcast24):
 
 def get_playable_podcast25(soup25):
     subjects = []
-    for content in soup25.find_all('item', limit=30):
+    for content in soup25.find_all('item', limit=70):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
@@ -1047,7 +1047,7 @@ def compile_playable_podcast25(playable_podcast25):
 
 def get_playable_podcast26(soup26):
     subjects = []
-    for content in soup26.find_all('item', limit=30):
+    for content in soup26.find_all('item', limit=70):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
@@ -1076,7 +1076,7 @@ def compile_playable_podcast26(playable_podcast26):
 
 def get_playable_podcast27(soup27):
     subjects = []
-    for content in soup27.find_all('item', limit=30):
+    for content in soup27.find_all('item', limit=70):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
@@ -1105,7 +1105,7 @@ def compile_playable_podcast27(playable_podcast27):
 
 def get_playable_podcast28(soup28):
     subjects = []
-    for content in soup28.find_all('item', limit=30):
+    for content in soup28.find_all('item', limit=70):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
@@ -1134,7 +1134,7 @@ def compile_playable_podcast28(playable_podcast28):
 
 def get_playable_podcast29(soup29):
     subjects = []
-    for content in soup29.find_all('item', limit=30):
+    for content in soup29.find_all('item', limit=70):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
@@ -1163,7 +1163,7 @@ def compile_playable_podcast29(playable_podcast29):
 
 def get_playable_podcast30(soup30):
     subjects = []
-    for content in soup30.find_all('item', limit=30):
+    for content in soup30.find_all('item', limit=70):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
@@ -1192,7 +1192,7 @@ def compile_playable_podcast30(playable_podcast30):
 
 def get_playable_podcast31(soup31):
     subjects = []
-    for content in soup31.find_all('item', limit=30):
+    for content in soup31.find_all('item', limit=70):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
@@ -1221,7 +1221,7 @@ def compile_playable_podcast31(playable_podcast31):
 
 def get_playable_podcast32(soup32):
     subjects = []
-    for content in soup32.find_all('item', limit=30):
+    for content in soup32.find_all('item', limit=70):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
@@ -1250,7 +1250,7 @@ def compile_playable_podcast32(playable_podcast32):
 
 def get_playable_podcast33(soup33):
     subjects = []
-    for content in soup33.find_all('item', limit=30):
+    for content in soup33.find_all('item', limit=70):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
@@ -1279,7 +1279,7 @@ def compile_playable_podcast33(playable_podcast33):
 
 def get_playable_podcast34(soup34):
     subjects = []
-    for content in soup34.find_all('item', limit=30):
+    for content in soup34.find_all('item', limit=70):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
@@ -1308,7 +1308,7 @@ def compile_playable_podcast34(playable_podcast34):
 
 def get_playable_podcast35(soup35):
     subjects = []
-    for content in soup35.find_all('item', limit=30):
+    for content in soup35.find_all('item', limit=70):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
@@ -1337,7 +1337,7 @@ def compile_playable_podcast35(playable_podcast35):
 
 def get_playable_podcast36(soup36):
     subjects = []
-    for content in soup36.find_all('item', limit=30):
+    for content in soup36.find_all('item', limit=70):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
@@ -1366,7 +1366,7 @@ def compile_playable_podcast36(playable_podcast36):
 
 def get_playable_podcast37(soup37):
     subjects = []
-    for content in soup37.find_all('item', limit=30):
+    for content in soup37.find_all('item', limit=70):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
@@ -1395,7 +1395,7 @@ def compile_playable_podcast37(playable_podcast37):
 
 def get_playable_podcast38(soup38):
     subjects = []
-    for content in soup38.find_all('item', limit=30):
+    for content in soup38.find_all('item', limit=70):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
@@ -1424,7 +1424,7 @@ def compile_playable_podcast38(playable_podcast38):
 
 def get_playable_podcast39(soup39):
     subjects = []
-    for content in soup39.find_all('item', limit=30):
+    for content in soup39.find_all('item', limit=70):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
@@ -1453,7 +1453,7 @@ def compile_playable_podcast39(playable_podcast39):
 
 def get_playable_podcast40(soup40):
     subjects = []
-    for content in soup40.find_all('item', limit=30):
+    for content in soup40.find_all('item', limit=70):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
@@ -1482,7 +1482,7 @@ def compile_playable_podcast40(playable_podcast40):
 
 def get_playable_podcast41(soup41):
     subjects = []
-    for content in soup41.find_all('item', limit=30):
+    for content in soup41.find_all('item', limit=70):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
@@ -1511,7 +1511,7 @@ def compile_playable_podcast41(playable_podcast41):
 
 def get_playable_podcast42(soup42):
     subjects = []
-    for content in soup42.find_all('item', limit=30):
+    for content in soup42.find_all('item', limit=70):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
@@ -1540,7 +1540,7 @@ def compile_playable_podcast42(playable_podcast42):
 
 def get_playable_podcast43(soup43):
     subjects = []
-    for content in soup43.find_all('item', limit=30):
+    for content in soup43.find_all('item', limit=70):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
@@ -1569,7 +1569,7 @@ def compile_playable_podcast43(playable_podcast43):
 
 def get_playable_podcast44(soup44):
     subjects = []
-    for content in soup44.find_all('item', limit=30):
+    for content in soup44.find_all('item', limit=70):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
@@ -1598,7 +1598,7 @@ def compile_playable_podcast44(playable_podcast44):
 
 def get_playable_podcast45(soup45):
     subjects = []
-    for content in soup45.find_all('item', limit=30):
+    for content in soup45.find_all('item', limit=70):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
