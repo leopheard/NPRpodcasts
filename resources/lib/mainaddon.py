@@ -1598,7 +1598,7 @@ def compile_playable_podcast44(playable_podcast44):
 
 def get_playable_podcast45(soup45):
     subjects = []
-    for content in soup44.find_all('item', limit=30):
+    for content in soup45.find_all('item', limit=30):
         try:        
             link = content.find('enclosure')
             link = link.get('url')
