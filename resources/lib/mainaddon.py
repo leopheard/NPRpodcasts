@@ -152,7 +152,7 @@ get_soup21("https://www.npr.org/rss/podcast.php?id=510312")
 def get_soup22(URL22): #EMBEDDED
     page = requests.get(URL22)
     soup22 = BeautifulSoup(page.text, 'html.parser')
-    print("type: ", type(soup2))
+    print("type: ", type(soup22))
     return soup22
 get_soup22("https://www.npr.org/rss/podcast.php?id=510311")
 
