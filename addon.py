@@ -83,183 +83,183 @@ def main_menu():
         {
             'label': plugin.get_string(30001),#WAIT
             'path': plugin.url_for('episodes1'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/wait.jpg"},
+            'thumbnail': "https://media.npr.org/assets/img/2019/05/23/screen-shot-2019-05-23-at-8.46.21-am_sq-7dcea391e7a87ca3569fe3d2047dda0144e5d86f-s200-c85.png"},
         {
             'label': plugin.get_string(30002),#HOW
             'path': plugin.url_for('episodes2'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/how.jpg"},
+            'thumbnail': "https://media.npr.org/assets/img/2018/08/03/npr_hibt_podcasttile_sq-98320b282169a8cea04a406530e6e7b957665b3f-s200-c85.jpg"},
         {
             'label': plugin.get_string(30003),#HIDDEN
             'path': plugin.url_for('episodes3'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/hidden.jpg"},
+            'thumbnail': "https://media.npr.org/assets/img/2018/08/03/npr_hiddenbrain_podcasttile_sq-270ab642de6948802f485c6ad1f087239ef6e324-s200-c85.jpg"},
         {
             'label': plugin.get_string(30004),#PLANET
             'path': plugin.url_for('episodes4'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/planet.jpg"},
+            'thumbnail': "https://media.npr.org/assets/img/2018/08/02/npr_planetmoney_podcasttile_sq-7b7fab0b52fd72826936c3dbe51cff94889797a0-s200-c85.jpg"},
         {
             'label': plugin.get_string(30005),#COLLEGE
             'path': plugin.url_for('episodes5'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/college.png"},
+            'thumbnail': "https://media.npr.org/assets/img/2019/05/23/npr_lifekit_studentdebt_4__sq-50c0e7692458fc46a7c6cc0189037e364e97253c-s200-c85.png"},
         {
             'label': plugin.get_string(30006),#WHITE
             'path': plugin.url_for('episodes6'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/white.jpg"},
+            'thumbnail': "https://media.npr.org/assets/img/2019/04/16/white-lies_final_sq-b1391789cfa7562bf3a4cd0c9cdae27fc4fa01b9-s200-c85.jpg"},
         {
             'label': plugin.get_string(30007),#ROUGH
             'path': plugin.url_for('episodes7'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/rough.jpg"},
+            'thumbnail': "https://media.npr.org/assets/img/2018/08/02/npr_roughtranslation_podcasttile1_sq-3ebceaa9b4811221618fa96a6a685e4db60673d5-s800-c15.jpg"},
         {
             'label': plugin.get_string(30008),#ASK
             'path': plugin.url_for('episodes8'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/ask.png"},
+            'thumbnail': "https://media.npr.org/assets/img/2019/04/05/npr_ama_podcasttile_sq-98e83d8d54ccc8468dc48f07ed0540ef56f8ffa0-s800-c15.jpg"},
         {
             'label': plugin.get_string(30009),#MORNING
             'path': plugin.url_for('episodes9'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/morning.jpg"},
+            'thumbnail': "https://media.npr.org/assets/img/2018/08/06/npr_me_podcasttile_sq-4036eb96471eeed96c37dfba404bb48ea798e78c.jpg?s=12"},
         {
             'label': plugin.get_string(30010),#THINGS
             'path': plugin.url_for('episodes10'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/things.jpg"},
+            'thumbnail': "http://mediad.publicbroadcasting.net/p/nwpr/files/201201/AllThingsConsidered_2.jpg"},
         {
             'label': plugin.get_string(30011),#WEEKENDSAT
             'path': plugin.url_for('episodes11'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/weekendsat.png"},
+            'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/weekendsat.png"},
         {
             'label': plugin.get_string(30012),#WEEKENDSUN
             'path': plugin.url_for('episodes12'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/weekendsun.png"},
+            'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/weekendsun.png"},
         {
             'label': plugin.get_string(30013),#HERENOW
             'path': plugin.url_for('episodes13'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/herenow.jpg"},
+            'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/herenow.jpg"},
         {
             'label': plugin.get_string(30014),#ONPOINT
             'path': plugin.url_for('episodes14'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/onpoint.jpg"},
+            'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/onpoint.jpg"},
         {
             'label': plugin.get_string(30015),#INDICATORPLANETMONEY
             'path': plugin.url_for('episodes15'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/indicatorplanet.jpg"},
+            'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/indicatorplanet.jpg"},
         {
             'label': plugin.get_string(30016),#FRESHAIR
             'path': plugin.url_for('episodes16'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/fresh.jpg"},
+            'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/fresh.jpg"},
         {
             'label': plugin.get_string(30017),#UPFIRST
             'path': plugin.url_for('episodes17'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/upfirst.jpg"},
+            'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/upfirst.jpg"},
         {
             'label': plugin.get_string(30018),#ONEA
             'path': plugin.url_for('episodes18'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/onea.jpg"},
+            'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/onea.jpg"},
         {
             'label': plugin.get_string(30019),#NPRNewsNow
             'path': plugin.url_for('episodes19'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/NPRnewsnow.jpg"},
+            'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/NPRnewsnow.jpg"},
         {
             'label': plugin.get_string(30020),#BELIEVED
             'path': plugin.url_for('episodes20'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/believed.jpg"},
+            'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/believed.jpg"},
         {
             'label': plugin.get_string(30021),#CODESW
             'path': plugin.url_for('episodes21'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/codesw.jpg"},
+            'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/codesw.jpg"},
         {
             'label': plugin.get_string(30022),#EMBEDDED
             'path': plugin.url_for('episodes22'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/embedded.jpg"},
+            'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/embedded.jpg"},
         {
             'label': plugin.get_string(30023),#ITSBEEN
             'path': plugin.url_for('episodes23'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/itsbeen.jpg"},
+            'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/itsbeen.jpg"},
         {
             'label': plugin.get_string(30024),#LATINOUSA
             'path': plugin.url_for('episodes24'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/latinousa.jpg"},
+            'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/latinousa.jpg"},
         {
             'label': plugin.get_string(30025),#NPRPOLITICS
             'path': plugin.url_for('episodes25'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/NPRpolitics.jpg"},
+            'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/NPRpolitics.jpg"},
         {
             'label': plugin.get_string(30026),#THROUGHLINE
             'path': plugin.url_for('episodes26'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/through.png"},
+            'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/through.png"},
         {
             'label': plugin.get_string(30027),#WHATSGOODWITH
             'path': plugin.url_for('episodes27'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/whatsgood.jpg"},
+            'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/whatsgood.jpg"},
         {
             'label': plugin.get_string(30028),#YRMEDIA
             'path': plugin.url_for('episodes28'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/YRmedia.png"},
+            'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/YRmedia.png"},
         {
             'label': plugin.get_string(30029),#BESTOFCARTALK
             'path': plugin.url_for('episodes29'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/car.jpg"},
+            'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/car.jpg"},
         {
             'label': plugin.get_string(30030),#BULLSEYE
             'path': plugin.url_for('episodes30'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/bullseye.jpg"},
+            'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/bullseye.jpg"},
         {
             'label': plugin.get_string(30031),#INVISIBILIA
             'path': plugin.url_for('episodes31'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/invisibilia.jpg"},
+            'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/invisibilia.jpg"},
         {
             'label': plugin.get_string(30032),#ONLYAGAME
             'path': plugin.url_for('episodes32'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/only.jpg"},
+            'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/only.jpg"},
         {
             'label': plugin.get_string(30033),#WOWINTHEWORLD
             'path': plugin.url_for('episodes33'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/wow.jpg"},
+            'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/wow.jpg"},
         {
             'label': plugin.get_string(30034),#ALLSONGS
             'path': plugin.url_for('episodes34'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/allsongs.jpg"},
+            'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/allsongs.jpg"},
         {
             'label': plugin.get_string(30035),#TINYDESK
             'path': plugin.url_for('episodes35'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/tiny.jpg"},
+            'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/tiny.jpg"},
         {
             'label': plugin.get_string(30036),#ALTLATINO
             'path': plugin.url_for('episodes36'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/altlatino.jpg"},
+            'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/altlatino.jpg"},
         {
             'label': plugin.get_string(30037),#NPRMOUNTAIN
             'path': plugin.url_for('episodes37'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/mountain.jpg"},
+            'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/mountain.jpg"},
         {
             'label': plugin.get_string(30038),#FROMTHETOP
             'path': plugin.url_for('episodes38'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/from.jpeg"},
+            'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/from.jpeg"},
         {
             'label': plugin.get_string(30039),#LIVEINCONCERTALLSONGSCONS
             'path': plugin.url_for('episodes39'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/live.jpg"},
+            'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/live.jpg"},
         {
             'label': plugin.get_string(30040),#BEPOWERFUL
             'path': plugin.url_for('episodes40'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/be.png"},
+            'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/be.png"},
         {
             'label': plugin.get_string(30041),#PBSFRONTLINE
             'path': plugin.url_for('episodes41'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/PBS.png"},
+            'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/PBS.png"},
         {
             'label': plugin.get_string(30042),#INNOVATIONHUB
             'path': plugin.url_for('episodes42'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/innovation.jpeg"},
+            'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/innovation.jpeg"},
         {
             'label': plugin.get_string(30043),#GROUNDTRUTHPROJ
             'path': plugin.url_for('episodes43'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/ground.jpg"},
+            'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/ground.jpg"},
         {
             'label': plugin.get_string(30044),#BIGLISTEN
             'path': plugin.url_for('episodes44'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/big.png"},
+            'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/big.png"},
         {
             'label': plugin.get_string(30045),#LIFEKITALLGUIDES
             'path': plugin.url_for('episodes45'),
-            'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/lifekitallguides.png"},
+            'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/lifekitallguides.png"},
 
     ]
     return items
