@@ -332,7 +332,7 @@ def get_playable_podcast1(soup1):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/wait.jpg"
+                'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/wait.jpg"
         }
         subjects.append(item) 
     return subjects
@@ -361,7 +361,7 @@ def get_playable_podcast2(soup2):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/how.jpg"
+                'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/how.jpg"
         }
         subjects.append(item) 
     return subjects
@@ -390,7 +390,7 @@ def get_playable_podcast3(soup3):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/hidden.jpg"
+                'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/hidden.jpg"
         }
         subjects.append(item) 
     return subjects
@@ -419,7 +419,7 @@ def get_playable_podcast4(soup4):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/planet.jpg"
+                'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/planet.jpg"
         }
         subjects.append(item) 
     return subjects
@@ -448,7 +448,7 @@ def get_playable_podcast5(soup5):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/college.png"
+                'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/college.png"
         }
         subjects.append(item) 
     return subjects
@@ -477,7 +477,7 @@ def get_playable_podcast6(soup6):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/white.jpg"
+                'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/white.jpg"
         }
         subjects.append(item) 
     return subjects
@@ -506,7 +506,7 @@ def get_playable_podcast7(soup7):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/rough.jpg"
+                'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/rough.jpg"
         }
         subjects.append(item) 
     return subjects
@@ -535,7 +535,7 @@ def get_playable_podcast8(soup8):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/ask.png"
+                'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/ask.png"
         }
         subjects.append(item) 
     return subjects
@@ -564,7 +564,7 @@ def get_playable_podcast9(soup9):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/morning.jpg"
+                'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/morning.jpg"
         }
         subjects.append(item) 
     return subjects
@@ -593,7 +593,7 @@ def get_playable_podcast10(soup10):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/things.jpg"
+                'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/things.jpg"
         }
         subjects.append(item) 
     return subjects
@@ -622,7 +622,7 @@ def get_playable_podcast11(soup11):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/weekendsat.png"
+                'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/weekendsat.png"
         }
         subjects.append(item) 
     return subjects
@@ -651,7 +651,7 @@ def get_playable_podcast12(soup12):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/weekendsun.png"
+                'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/weekendsun.png"
         }
         subjects.append(item) 
     return subjects
@@ -680,7 +680,7 @@ def get_playable_podcast13(soup13):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/herenow.jpg"
+                'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/herenow.jpg"
         }
         subjects.append(item) 
     return subjectS
@@ -709,7 +709,7 @@ def get_playable_podcast14(soup14):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/onpoint.jpg"
+                'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/onpoint.jpg"
         }
         subjects.append(item) 
     return subjects
@@ -738,7 +738,7 @@ def get_playable_podcast15(soup15):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/indicatorplanet.jpg"
+                'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/indicatorplanet.jpg"
         }
         subjects.append(item) 
     return subjects
@@ -767,7 +767,7 @@ def get_playable_podcast16(soup16):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/fresh.jpg"
+                'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/fresh.jpg"
         }
         subjects.append(item) 
     return subjects
@@ -796,7 +796,7 @@ def get_playable_podcast17(soup17):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/upfirst.jpg"
+                'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/upfirst.jpg"
         }
         subjects.append(item) 
     return subjects
@@ -825,7 +825,7 @@ def get_playable_podcast18(soup18):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/onea.jpg"
+                'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/onea.jpg"
         }
         subjects.append(item) 
     return subjects
@@ -854,7 +854,7 @@ def get_playable_podcast19(soup19):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/NPRnewsnow.jpg"
+                'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/NPRnewsnow.jpg"
         }
         subjects.append(item) 
     return subjects
@@ -883,7 +883,7 @@ def get_playable_podcast20(soup20):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/believed.jpg"
+                'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/believed.jpg"
         }
         subjects.append(item) 
 
@@ -913,7 +913,7 @@ def get_playable_podcast21(soup21):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/codesw.jpg"
+                'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/codesw.jpg"
         }
         subjects.append(item) 
     return subjects
@@ -942,7 +942,7 @@ def get_playable_podcast22(soup22):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/embedded.jpg"
+                'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/embedded.jpg"
         }
         subjects.append(item) 
     return subjects
@@ -971,7 +971,7 @@ def get_playable_podcast23(soup23):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/itsbeen.jpg"
+                'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/itsbeen.jpg"
         }
         subjects.append(item) 
     return subjects
@@ -1000,7 +1000,7 @@ def get_playable_podcast24(soup24):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/latinoisa.jpg"
+                'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/latinoisa.jpg"
         }
         subjects.append(item) 
     return subjects
@@ -1029,7 +1029,7 @@ def get_playable_podcast25(soup25):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/NPRpolitics.jpg"
+                'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/NPRpolitics.jpg"
         }
         subjects.append(item) 
     return subjects
@@ -1058,7 +1058,7 @@ def get_playable_podcast26(soup26):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/through.jpg"
+                'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/through.jpg"
         }
         subjects.append(item) 
     return subjects
@@ -1087,7 +1087,7 @@ def get_playable_podcast27(soup27):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/whatsgood.jpg"
+                'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/whatsgood.jpg"
         }
         subjects.append(item) 
     return subjects
@@ -1116,7 +1116,7 @@ def get_playable_podcast28(soup28):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/yrmedia.jpg"
+                'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/yrmedia.jpg"
         }
         subjects.append(item) 
     return subjects
@@ -1145,7 +1145,7 @@ def get_playable_podcast29(soup29):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/car.jpg"
+                'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/car.jpg"
         }
         subjects.append(item) 
     return subjects
@@ -1174,7 +1174,7 @@ def get_playable_podcast30(soup30):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/bullseye.jpg"
+                'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/bullseye.jpg"
         }
         subjects.append(item) 
     return subjects
@@ -1203,7 +1203,7 @@ def get_playable_podcast31(soup31):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/invisiblia.jpg"
+                'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/invisiblia.jpg"
         }
         subjects.append(item) 
     return subjects
@@ -1232,7 +1232,7 @@ def get_playable_podcast32(soup32):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/only.jpg"
+                'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/only.jpg"
         }
         subjects.append(item) 
     return subjects
@@ -1261,7 +1261,7 @@ def get_playable_podcast33(soup33):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/wow.jpg"
+                'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/wow.jpg"
         }
         subjects.append(item) 
     return subjects
@@ -1290,7 +1290,7 @@ def get_playable_podcast34(soup34):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/allsongs.jpg"
+                'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/allsongs.jpg"
         }
         subjects.append(item) 
     return subjects
@@ -1319,7 +1319,7 @@ def get_playable_podcast35(soup35):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/tiny.jpg"
+                'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/tiny.jpg"
         }
         subjects.append(item) 
     return subjects
@@ -1348,7 +1348,7 @@ def get_playable_podcast36(soup36):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/altlatino.jpg"
+                'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/altlatino.jpg"
         }
         subjects.append(item) 
     return subjects
@@ -1377,7 +1377,7 @@ def get_playable_podcast37(soup37):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/mountain.jpg"
+                'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/mountain.jpg"
         }
         subjects.append(item) 
     return subjects
@@ -1406,7 +1406,7 @@ def get_playable_podcast38(soup38):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/from.jpg"
+                'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/from.jpg"
         }
         subjects.append(item) 
     return subjects
@@ -1435,7 +1435,7 @@ def get_playable_podcast39(soup39):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/live.jpg"
+                'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/live.jpg"
         }
         subjects.append(item) 
     return subjects
@@ -1464,7 +1464,7 @@ def get_playable_podcast40(soup40):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/be.png"
+                'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/be.png"
         }
         subjects.append(item) 
     return subjects
@@ -1493,7 +1493,7 @@ def get_playable_podcast41(soup41):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/PBS.png"
+                'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/PBS.png"
         }
         subjects.append(item) 
     return subjects
@@ -1522,7 +1522,7 @@ def get_playable_podcast42(soup42):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/innovation.jpeg"
+                'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/innovation.jpeg"
         }
         subjects.append(item) 
     return subjects
@@ -1551,7 +1551,7 @@ def get_playable_podcast43(soup43):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/ground.jpg"
+                'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/ground.jpg"
         }
         subjects.append(item) 
     return subjects
@@ -1580,7 +1580,7 @@ def get_playable_podcast44(soup44):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/big.png"
+                'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/big.png"
         }
         subjects.append(item) 
     return subjects
@@ -1609,7 +1609,7 @@ def get_playable_podcast45(soup45):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': "/home/osmc/.kodi/addons/plugin.audio.NPRpodcasts/resources/media/lifekitallguides.png"
+                'thumbnail': "https://raw.githubusercontent.com/leopheard/NPRpodcasts/master/resources/media/lifekitallguides.png"
         }
         subjects.append(item) 
     return subjects

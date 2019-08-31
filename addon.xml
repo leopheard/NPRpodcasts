@@ -20,7 +20,6 @@
     <email>leopheard@gmail.com</email>
     <source>https://github.com/leopheard/NPRpodcasts</source>
     <website>https://www.npr.org/podcasts/</website>
-    <audio_guide></audio_guide>
         	<assets>
 			<icon>resources/media/icon.jpg</icon>
 			<fanart>resources/media/fanart.jpg</fanart>

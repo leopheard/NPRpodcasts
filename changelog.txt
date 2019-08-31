@@ -10,3 +10,5 @@ __Version 1.1.1__
 1. Fixed soup links to improve startup speed
 2. Corrected icon / fanart to comply with Kodi spec
 3. Added US/UK language files and deleted old ones to comply with Kodi spec
+4. Changed logos to online links to allow for various Kodi installs
+5. Removed <audio guide> tags from addon.xml
