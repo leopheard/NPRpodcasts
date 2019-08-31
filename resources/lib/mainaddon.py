@@ -264,7 +264,7 @@ get_soup37("https://feedpress.me/mountainstagepodcast")
 def get_soup38(URL38): #FROM
     page = requests.get(URL38)
     soup38 = BeautifulSoup(page.text, 'html.parser')
-    print("type: ", type(soup))
+    print("type: ", type(soup38))
     return soup38
 get_soup38("https://www.npr.org/rss/podcast.php?id=510026")
 
