@@ -1,0 +1,12 @@
+__Version 1.0.0__
+1. Initial working version
+
+__Version 1.1.0__
+1. Updated logos to local files to improve speed
+2. Added few more podcasts from WGBH
+3. Fixed incorrect soup links
+
+__Version 1.1.1__
+1. Fixed soup links to improve startup speed
+2. Corrected icon / fanart to comply with Kodi spec
+3. Added US/UK language files and deleted old ones to comply with Kodi spec

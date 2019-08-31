@@ -1,0 +1,199 @@
+# Kodi Media Center language file
+# Addon Provider: leopheard
+"Project-Id-Version: Kodi Addons\n"
+"Report-Msgid-Bugs-To: leopheard@gmail.com\n"
+"POT-Creation-Date: 2019-08-12 HO:MI+ZONE\n"
+"PO-Revision-Date: 2019-08-12 HO:MI+ZONE\n"
+"Last-Translator: Kodi Translation Team\n"
+"Language-Team: English (http://www.transifex.com/projects/p/xbmc-addons/language/en/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#30001"
+msgid "Wait Wait Don't Tell Me"
+msgstr ""
+
+msgctxt "#30002"
+msgid "How I Built This With Guy Riaz"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Hidden Brain"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Planet Money"
+msgstr ""
+
+msgctxt "#30005"
+msgid "How To Pay For College"
+msgstr ""
+
+msgctxt "#30006"
+msgid "White Lies"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Rough Translation"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Ask Me Another"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Morning Edition"
+msgstr ""
+
+msgctxt "#30010"
+msgid "All Things Considered"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Weekend Edition Saturday"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Weekend Edition Sunday"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Here and Now"
+msgstr ""
+
+msgctxt "#30014"
+msgid "On Point WBUR"
+msgstr ""
+
+msgctxt "#30015"
+msgid "The Indicator from Planet Money"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Fresh Air"
+msgstr ""
+
+msgctxt "#30017"
+msgid "Up First"
+msgstr ""
+
+msgctxt "#30018"
+msgid "1A"
+msgstr ""
+
+msgctxt "#30019"
+msgid "NPR News Now"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Believed"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Code Switch"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Embedded"
+msgstr ""
+
+msgctxt "#30023"
+msgid "It's Been A Minute With Sam Sanders"
+msgstr ""
+
+msgctxt "#30024"
+msgid "Latino USA"
+msgstr ""
+
+msgctxt "#30025"
+msgid "NPR Politics Podcast"
+msgstr ""
+
+msgctxt "#30026"
+msgid "Throughline"
+msgstr ""
+
+msgctxt "#30027"
+msgid "What's Good With Stretch and Bobbito"
+msgstr ""
+
+msgctxt "#30028"
+msgid "YR Media"
+msgstr ""
+
+msgctxt "#30028"
+msgid "Ask Me Another"
+msgstr ""
+
+msgctxt "#30029"
+msgid "Best Of Car Talk"
+msgstr ""
+
+msgctxt "#30030"
+msgid "Bullseye"
+msgstr ""
+
+msgctxt "#30031"
+msgid "Invisibilia"
+msgstr ""
+
+msgctxt "#30032"
+msgid "It's Only A Game"
+msgstr ""
+
+msgctxt "#30033"
+msgid "Wow In The World"
+msgstr ""
+
+msgctxt "#30034"
+msgid "All Songs Considered"
+msgstr ""
+
+msgctxt "#30035"
+msgid "Tiny Desk Concerts"
+msgstr ""
+
+msgctxt "#30036"
+msgid "Alt Latino"
+msgstr ""
+
+msgctxt "#30037"
+msgid "NPR Mountain Stage With Larry Grace"
+msgstr ""
+
+msgctxt "#30038"
+msgid "From The Top"
+msgstr ""
+
+msgctxt "#30039"
+msgid "All Songs Considered - Live"
+msgstr ""
+
+msgctxt "#30040"
+msgid "Be A Powerful Patient"
+msgstr ""
+
+msgctxt "#30041"
+msgid "PBS Frontline Dispatch"
+msgstr ""
+
+msgctxt "#30042"
+msgid "Innovation Hub"
+msgstr ""
+
+msgctxt "#30043"
+msgid "Ground Truth Project"
+msgstr ""
+
+msgctxt "#30044"
+msgid "The Big Listen"
+msgstr ""
+
+msgctxt "#30045"
+msgid "Life Kit - All Guides"
+msgstr ""
+
+# empty string with id 32003
