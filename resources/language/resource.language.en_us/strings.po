@@ -1,5 +1,7 @@
 # Kodi Media Center language file
 # Addon Provider: leopheard
+msgid ""        
+msgstr ""
 "Project-Id-Version: Kodi Addons\n"
 "Report-Msgid-Bugs-To: leopheard@gmail.com\n"
 "POT-Creation-Date: 2019-08-12 HO:MI+ZONE\n"
@@ -11,10 +13,12 @@
 "Content-Transfer-Encoding: 8bit\n"
 "Language: en\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+msgid ""        
+msgstr ""
 
 msgctxt "#30001"
-msgid "Wait Wait Don't Tell Me"
-msgstr ""
+msgid "Wait, Wait Don't Tell Me"
+msgstr "Wait, Wait Don't Tell Me"
 
 msgctxt "#30002"
 msgid "How I Built This With Guy Riaz"
